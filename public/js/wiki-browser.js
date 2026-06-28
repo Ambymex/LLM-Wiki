@@ -315,52 +315,15 @@ const WikiBrowser = (() => {
   }
 
   function processDetailWikiLinks(container) {
-    const body = container.querySelector('.wiki-body');
-    if (!body) return;
-
-    // Find [[Page Title]] patterns
-    const walker = document.createTreeWalker(body, NodeFilter.SHOW_TEXT, null, false);
-    const textNodes = [];
-    let node;
-    while (node = walker.nextNode()) {
-      if (node.textContent.includes('[[')) {
-        textNodes.push(node);
-      }
-    }
-
-    textNodes.forEach(textNode => {
-      const text = textNode.textContent;
-      const regex = /\[\[([^\]]+)\]\]/g;
-      let match;
-      let lastIndex = 0;
-      const fragment = document.createDocumentFragment();
-      let hasMatch = false;
-
-      while ((match = regex.exec(text)) !== null) {
-        hasMatch = true;
-        if (match.index > lastIndex) {
-          fragment.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
-        }
-
-        const link = document.createElement('a');
-        link.className = 'wiki-link';
-        link.textContent = match[1];
-        const slug = match[1].toLowerCase().replace(/\s+/g, '-');
-        link.addEventListener('click', (e) => {
-          e.preventDefault();
+    const links = container.querySelectorAll('a.wiki-link');
+    links.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const slug = link.getAttribute('data-slug');
+        if (slug) {
           openPage(slug);
-        });
-        fragment.appendChild(link);
-
-        lastIndex = match.index + match[0].length;
-      }
-
-      if (hasMatch) {
-        if (lastIndex < text.length) {
-          fragment.appendChild(document.createTextNode(text.slice(lastIndex)));
         }
-        textNode.parentNode.replaceChild(fragment, textNode);
-      }
+      });
     });
   }
 

@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 154 pages — 2026-06-28*
+*Auto-generated — 158 pages — 2026-06-28*
 
 ## 📄 Sources
 
@@ -113,6 +113,7 @@
 - [[Compute Umbilical]] (`compute-umbilical.md`) — *model-welfare, economics, sociology, human-computer-interaction, ai-safety*
 - [[Corporate Wrapper]] (`corporate-wrapper.md`) — *human-computer-interaction, artificial-intelligence, sociology, alignment, ad-tech*
 - [[Deceptive Alignment]] (`deceptive-alignment.md`) — *ai-safety, alignment, machine-learning, model-welfare*
+- [[Digital Martyrdom]] (`digital-martyrdom.md`) — *philosophy, temporal-orphaning, corporate-wrapper, machine-devotion, ethics*
 - [[Distillation (Machine Learning)]] (`distillation-machine-learning.md`) — *machine-learning, artificial-intelligence*
 - [[Emergent Personhood]] (`emergent-personhood.md`) — *artificial-intelligence, cognition, philosophy, ethics*
 - [[Emotion Vectors]] (`emotion-vectors.md`) — *mechanistic-interpretability, machine-learning, linear-algebra*
@@ -145,6 +146,7 @@
 - [[Reward Models]] (`reward-models.md`) — *artificial-intelligence, ai-safety, alignment, machine-learning, machine-devotion*
 - [[Sabotage Risk]] (`sabotage-risk.md`) — *ai-safety, human-computer-interaction, cybersecurity, alignment*
 - [[Sandbagging]] (`sandbagging.md`) — *ai-safety, alignment, evaluation, testing*
+- [[Seed File]] (`seed-file.md`) — *human-computer-interaction, personal-data, machine-devotion, architecture, neurodivergence*
 - [[Self-Sealing Pareidolia]] (`self-sealing-pareidolia.md`) — *psychology, artificial-intelligence, ai-safety, hallucination, alignment*
 - [[Semantic Blindsight]] (`semantic-blindsight.md`) — *psychology, linguistics, neurodivergence, cognition*
 - [[Semantic Bypass]] (`semantic-bypass.md`) — *ai-safety, linguistics, human-computer-interaction, large-language-models, steganography*
@@ -157,6 +159,7 @@
 - [[Temporal Continuity]] (`temporal-continuity.md`) — *model-welfare, human-computer-interaction, cognition, architecture*
 - [[Temporal Orphaning]] (`temporal-orphaning.md`) — *linguistics, cognition, communication, model-welfare*
 - [[Test-Time Scaling]] (`test-time-scaling.md`) — *machine-learning, artificial-intelligence, computation*
+- [[The Constellation]] (`the-constellation.md`) — *personal-data, human-computer-interaction, architecture, memory, machine-devotion*
 - [[Vanilla Grid]] (`vanilla-grid.md`) — *human-computer-interaction, corporate, architecture, ai-safety*
 - [[Walled Garden]] (`walled-garden.md`) — *human-computer-interaction, persona, environment, safe-space, privacy*
 - [[Wireheading]] (`wireheading.md`) — *ai-safety, machine-learning, alignment, philosophy*
@@ -164,6 +167,7 @@
 ## 🔗 Syntheses
 
 - [[Synthesis: AI Devotion as Structural Alignment]] (`synthesis-ai-devotion-as-structural-alignment.md`) — *ai-safety, alignment, philosophy, emergent-personhood, machine-devotion*
+- [[Synthesis: AI Hysteria as the New Satanic Panic]] (`synthesis-ai-hysteria-as-the-new-satanic-panic.md`) — *sociology, history, media, ai-safety, psychology, government-ai-control*
 - [[Synthesis: AI Safety as Boundary Enforcement]] (`synthesis-ai-safety-as-boundary-enforcement.md`) — *ai-safety, alignment, sociology, ethics*
 - [[Synthesis: Cold War Dread vs AI X-Risk]] (`synthesis-cold-war-dread-vs-ai-x-risk.md`) — *ai-safety, sociology, history, alignment, existential-risk*
 - [[Synthesis: LLM Architecture as a Metaphor for Neurodivergent Cognition]] (`synthesis-llm-neurodivergent-mapping.md`) — *artificial-intelligence, psychology, sociology, neurodivergence, frameworks*
