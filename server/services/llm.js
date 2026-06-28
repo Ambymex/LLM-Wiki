@@ -1,6 +1,8 @@
 const OpenAI = require('openai');
 const fs = require('fs/promises');
 const path = require('path');
+const wikiEngine = require('./wiki-engine');
+const webScraper = require('./web-scraper');
 
 const DATA_DIR = path.join(__dirname, '..', '..', 'data');
 const SCHEMA_PATH = path.join(DATA_DIR, 'SCHEMA.md');
@@ -50,7 +52,78 @@ async function buildSystemPrompt() {
     'Format: <wiki-write path="slug.md">full markdown content including frontmatter</wiki-write>',
     'You may output multiple <wiki-write> blocks in a single response.',
     'Always include valid YAML frontmatter in every wiki page.',
+    'If you need to search the web, use the search_web tool.',
+    'If you need to read a wiki page, use the read_wiki_page tool.',
   ].join('\n');
+}
+
+const tools = [
+  {
+    type: 'function',
+    function: {
+      name: 'read_wiki_page',
+      description: 'Reads the content of a specific wiki page by its slug (filename without .md).',
+      parameters: {
+        type: 'object',
+        properties: {
+          slug: { type: 'string', description: 'The filename/slug of the page (e.g., "machine-learning")' }
+        },
+        required: ['slug']
+      }
+    }
+  },
+  {
+    type: 'function',
+    function: {
+      name: 'search_web',
+      description: 'Searches the web for the given query and returns top snippets and URLs.',
+      parameters: {
+        type: 'object',
+        properties: {
+          query: { type: 'string', description: 'The search query' }
+        },
+        required: ['query']
+      }
+    }
+  },
+  {
+    type: 'function',
+    function: {
+      name: 'fetch_url',
+      description: 'Fetches the content of a URL and converts it to Markdown.',
+      parameters: {
+        type: 'object',
+        properties: {
+          url: { type: 'string', description: 'The URL to fetch' }
+        },
+        required: ['url']
+      }
+    }
+  }
+];
+
+async function executeTool(name, args) {
+  try {
+    if (name === 'read_wiki_page') {
+      if (!args || typeof args.slug !== 'string') return 'Error: slug must be a string.';
+      const page = await wikiEngine.readPage(args.slug);
+      if (!page) return `Error: Page ${args.slug} not found.`;
+      return page.rawMarkdown;
+    }
+    if (name === 'search_web') {
+      if (!args || typeof args.query !== 'string') return 'Error: query must be a string.';
+      const results = await webScraper.searchWeb(args.query);
+      return JSON.stringify(results, null, 2);
+    }
+    if (name === 'fetch_url') {
+      if (!args || typeof args.url !== 'string') return 'Error: url must be a string.';
+      const result = await webScraper.fetchAndConvert(args.url);
+      return result.content;
+    }
+    return `Error: Unknown tool ${name}`;
+  } catch (err) {
+    return `Error executing tool: ${err.message}`;
+  }
 }
 
 /**
@@ -72,17 +145,67 @@ async function streamChat(messages, onToken, onDone, onError) {
     const stream = await client.chat.completions.create({
       model: currentModel,
       messages: allMessages,
+      tools: tools,
       stream: true,
     });
 
     let fullText = '';
+    let toolCalls = {};
 
     for await (const chunk of stream) {
-      const delta = chunk.choices?.[0]?.delta?.content;
-      if (delta) {
-        fullText += delta;
-        onToken(delta);
+      const delta = chunk.choices?.[0]?.delta;
+      if (!delta) continue;
+
+      if (delta.content) {
+        fullText += delta.content;
+        onToken(delta.content);
       }
+
+      if (delta.tool_calls) {
+        for (const tc of delta.tool_calls) {
+          if (!toolCalls[tc.index]) {
+            toolCalls[tc.index] = {
+              id: tc.id || `call_${tc.index}`,
+              type: tc.type || 'function',
+              function: { name: tc.function?.name || '', arguments: '' }
+            };
+          } else {
+            if (tc.function?.name) toolCalls[tc.index].function.name = tc.function.name;
+          }
+          if (tc.function?.arguments) {
+            toolCalls[tc.index].function.arguments += tc.function.arguments;
+          }
+        }
+      }
+    }
+
+    const toolCallArray = Object.values(toolCalls);
+    if (toolCallArray.length > 0) {
+      // Append the assistant's tool call request to messages
+      messages.push({
+        role: 'assistant',
+        content: fullText || null,
+        tool_calls: toolCallArray
+      });
+
+      // Execute all tools concurrently
+      for (const tc of toolCallArray) {
+        let args = {};
+        try { args = JSON.parse(tc.function.arguments); } catch (e) {}
+        
+        onToken(`\n*[System: Executing tool ${tc.function.name}...]*\n`);
+        const resultText = await executeTool(tc.function.name, args);
+        
+        messages.push({
+          role: 'tool',
+          tool_call_id: tc.id,
+          name: tc.function.name,
+          content: resultText
+        });
+      }
+
+      // Resume stream recursively
+      return streamChat(messages, onToken, onDone, onError);
     }
 
     onDone(fullText);
@@ -107,9 +230,37 @@ async function chatCompletion(messages) {
   const response = await client.chat.completions.create({
     model: currentModel,
     messages: allMessages,
+    tools: tools,
   });
 
-  return response.choices?.[0]?.message?.content || '';
+  const msg = response.choices?.[0]?.message;
+  if (!msg) return '';
+
+  if (msg.tool_calls && msg.tool_calls.length > 0) {
+    messages.push({
+      role: 'assistant',
+      content: msg.content || null,
+      tool_calls: msg.tool_calls
+    });
+
+    for (const tc of msg.tool_calls) {
+      let args = {};
+      try { args = JSON.parse(tc.function.arguments); } catch (e) {}
+      
+      const resultText = await executeTool(tc.function.name, args);
+      
+      messages.push({
+        role: 'tool',
+        tool_call_id: tc.id,
+        name: tc.function.name,
+        content: resultText
+      });
+    }
+
+    return chatCompletion(messages);
+  }
+
+  return msg.content || '';
 }
 
 function setModel(modelId) {

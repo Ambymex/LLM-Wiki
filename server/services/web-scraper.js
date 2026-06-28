@@ -236,6 +236,46 @@ function cleanText(text) {
     .trim();
 }
 
+/**
+ * Search the web using DuckDuckGo HTML.
+ * Returns an array of { title, url, snippet }.
+ */
+async function searchWeb(query) {
+  try {
+    const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
+    const url = `https://html.duckduckgo.com/html/?q=${encodeURIComponent(query)}`;
+    const response = await fetch(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+      }
+    });
+
+    if (!response.ok) return [];
+
+    const html = await response.text();
+    const $ = cheerio.load(html);
+    const results = [];
+
+    $('.result__body').each((i, el) => {
+      if (i >= 5) return false; // top 5 results
+      const title = $(el).find('.result__title').text().trim();
+      const href = $(el).find('.result__url').attr('href') || '';
+      const snippet = $(el).find('.result__snippet').text().trim();
+      
+      // DuckDuckGo redirects links via //duckduckgo.com/l/?uddg=<encoded>
+      // We can try to extract the real URL if needed, but often the snippet is enough.
+      // Or we just return the DuckDuckGo redirect link.
+      results.push({ title, url: href, snippet });
+    });
+
+    return results;
+  } catch (err) {
+    console.error('Web search error:', err);
+    return [];
+  }
+}
+
 module.exports = {
   fetchAndConvert,
+  searchWeb,
 };

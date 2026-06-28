@@ -4,7 +4,7 @@ const ingestService = require('../services/ingest');
 const fs = require('fs/promises');
 const path = require('path');
 
-const MAX_HISTORY = 20;
+const MAX_HISTORY = 100;
 const HISTORY_FILE = path.join(__dirname, '..', '..', 'data', 'chat_history.json');
 
 async function loadHistory() {

@@ -499,8 +499,9 @@ Here's what you can do:
     messagesContainer.innerHTML = '';
     addWelcomeMessage();
     
-    // Render the history array
+    // Render the history array (skip tool calls and tool responses to keep UI clean)
     data.history.forEach(msg => {
+      if (msg.role === 'tool' || (msg.role === 'assistant' && !msg.content)) return;
       addMessage(msg.role, msg.content, { skipAnimation: true });
     });
     autoScroll();
