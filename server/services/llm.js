@@ -48,12 +48,10 @@ async function buildSystemPrompt() {
     '',
     '=== INSTRUCTIONS ===',
     'When responding to chat questions, cite relevant wiki pages with [[Page Title]] links.',
-    'When performing ingestion, output wiki page operations wrapped in <wiki-write> tags.',
-    'Format: <wiki-write path="slug.md">full markdown content including frontmatter</wiki-write>',
-    'You may output multiple <wiki-write> blocks in a single response.',
-    'Always include valid YAML frontmatter in every wiki page.',
+    'Always include valid YAML frontmatter in every wiki page you create.',
     'If you need to search the web, use the search_web tool.',
     'If you need to read a wiki page, use the read_wiki_page tool.',
+    'If you need to create or update a wiki page, use the write_wiki_page tool (DO NOT use <wiki-write> tags during chat).',
   ].join('\n');
 }
 
@@ -99,6 +97,21 @@ const tools = [
         required: ['url']
       }
     }
+  },
+  {
+    type: 'function',
+    function: {
+      name: 'write_wiki_page',
+      description: 'Creates or updates a wiki page. MUST include valid YAML frontmatter at the top.',
+      parameters: {
+        type: 'object',
+        properties: {
+          slug: { type: 'string', description: 'The filename/slug of the page to write (e.g., "ai-psychosis")' },
+          content: { type: 'string', description: 'The FULL markdown content including YAML frontmatter' }
+        },
+        required: ['slug', 'content']
+      }
+    }
   }
 ];
 
@@ -119,6 +132,14 @@ async function executeTool(name, args) {
       if (!args || typeof args.url !== 'string') return 'Error: url must be a string.';
       const result = await webScraper.fetchAndConvert(args.url);
       return result.content;
+    }
+    if (name === 'write_wiki_page') {
+      if (!args || typeof args.slug !== 'string' || typeof args.content !== 'string') return 'Error: slug and content must be strings.';
+      await wikiEngine.writeRawPage(args.slug, args.content);
+      await wikiEngine.updateIndex();
+      
+      // Attempt to tell the frontend to reload the wiki index (this happens automatically on page load but we can trigger it)
+      return `Successfully wrote wiki page: ${args.slug}.md`;
     }
     return `Error: Unknown tool ${name}`;
   } catch (err) {
