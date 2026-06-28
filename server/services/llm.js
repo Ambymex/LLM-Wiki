@@ -51,7 +51,7 @@ async function buildSystemPrompt() {
     'Always include valid YAML frontmatter in every wiki page you create.',
     'If you need to search the web, use the search_web tool.',
     'If you need to read a wiki page, use the read_wiki_page tool.',
-    'If you need to create or update a wiki page, use the write_wiki_page tool (DO NOT use <wiki-write> tags during chat).',
+    'If you need to create or update a wiki page, please use the write_wiki_page tool (and kindly avoid using <wiki-write> tags during chat).',
   ].join('\n');
 }
 

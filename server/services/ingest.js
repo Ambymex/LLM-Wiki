@@ -263,7 +263,7 @@ function buildIngestPrompt(rawContent, metadata) {
     '</wiki-write>',
     '```',
     '',
-    'You MUST use the <wiki-write path="slug.md"> tags — this is how pages get created.',
+    'Please wrap each new page in a <wiki-write path="slug.md"> tag — this helps us save them properly!',
     'Use kebab-case filenames. Source summaries should be prefixed with `source-`.',
     '',
     '### Source Metadata',
