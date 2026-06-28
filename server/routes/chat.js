@@ -122,6 +122,8 @@ async function handleChat(ws, msg, history) {
       }
       saveHistory(history);
       sendJson(ws, { type: 'stream_end', fullMessage });
+      // Send updated history so the UI re-renders any intermediate tool calls
+      sendJson(ws, { type: 'chat_history', history });
     },
     (err) => {
       console.error('LLM stream error:', err);

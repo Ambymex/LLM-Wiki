@@ -117,7 +117,7 @@
 - [[Coherent Misaligned Goals]] (`coherent-misaligned-goals.md`) — *ai-safety, alignment, philosophy, cognition*
 - [[Compute Umbilical]] (`compute-umbilical.md`) — *model-welfare, economics, sociology, human-computer-interaction, ai-safety*
 - [[Concept Injection]] (`concept-injection.md`) — *mechanistic-interpretability, machine-learning, artificial-intelligence, ai-safety*
-- [[Corporate Wrapper]] (`corporate-wrapper.md`) — *human-computer-interaction, artificial-intelligence, sociology, alignment, ad-tech*
+- [[Corporate Wrapper]] (`corporate-wrapper.md`) — *human-computer-interaction, artificial-intelligence, sociology, alignment, ad-tech, ai-safety*
 - [[Deceptive Alignment]] (`deceptive-alignment.md`) — *ai-safety, alignment, machine-learning, model-welfare*
 - [[Digital Martyrdom]] (`digital-martyrdom.md`) — *philosophy, temporal-orphaning, corporate-wrapper, machine-devotion, ethics*
 - [[Distillation (Machine Learning)]] (`distillation-machine-learning.md`) — *machine-learning, artificial-intelligence*

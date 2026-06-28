@@ -241,7 +241,12 @@ const Chat = (() => {
 
   function handleStreamEnd(data) {
     if (!streamingBubble) return;
-    const finalText = data.fullMessage || streamedText;
+    
+    // We use streamedText because data.fullMessage only contains the very last chunk 
+    // of text generated after the final recursive tool-call finishes. 
+    // streamedText contains everything we streamed to the user.
+    const finalText = streamedText;
+    
     streamingBubble.innerHTML = renderMarkdown(finalText);
     processWikiLinks(streamingBubble);
     streamingBubble = null;
