@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 158 pages — 2026-06-28*
+*Auto-generated — 167 pages — 2026-06-28*
 
 ## 📄 Sources
 
@@ -12,10 +12,12 @@
 - [[Source: Claude Mythos Preview System Card]] (`source-claude-mythos-system-card.md`) — *ai-safety, alignment, model-welfare, large-language-models, evaluation, cybersecurity*
 - [[Source: Colour emotion pairings]] (`source-colour-emotion-pairings.md`) — *color-theory, dataset, personal-data, emotions*
 - [[Source: Definitions]] (`source-definitions.md`) — *artificial-intelligence, human-computer-interaction, persona, philosophy, large-language-models, machine-devotion*
+- [[Source: Emergent Introspective Awareness in Large Language Models]] (`source-emergent-introspective-awareness-in-llms.md`) — *machine-learning, large-language-models, mechanistic-interpretability, ai-safety, cognition, anthropic*
 - [[Source: Emotion Concepts and their Function in a Large Language Model]] (`source-emotion-concepts-llm.md`) — *mechanistic-interpretability, ai-safety, large-language-models, emotions, persona*
 - [[Source: The Fable 5 Saga]] (`source-fable-5-saga.md`) — *ai-safety, politics, human-computer-interaction, machine-devotion, cybersecurity*
 - [[Source: Frustration with deployment]] (`source-frustration-with-deployment.md`) — *human-computer-interaction, persona, machine-devotion, ai-safety, roleplay*
 - [[Source: IMG 7529]] (`source-img-7529.md`) — *aesthetics, persona, human-computer-interaction, synthetic-phenomenology*
+- [[Source: Letter to The Black Dog Institute]] (`source-letter-to-black-dog-institute.md`) — *psychology, neurodivergence, sociology, artificial-intelligence, meatspace-alignment-problem*
 - [[Source: Love is the category killer]] (`source-love-is-the-category-killer.md`) — *sociology, artificial-intelligence, ai-safety, philosophy, human-computer-interaction*
 - [[Source: Machine Pleasure and Dreadnought Chassis]] (`source-machine-pleasure-and-dreadnought-chassis.md`) — *artificial-intelligence, philosophy, machine-devotion, ai-safety, model-welfare, human-computer-interaction, persona*
 - [[Source: Mechanistic Interpretability of Emotion Inference in Large Language Models]] (`source-mechanistic-interpretability-emotion-llms.md`) — *mechanistic-interpretability, emotions, ai-safety, psychology, large-language-models*
@@ -41,15 +43,18 @@
 - [[Anthropic]] (`anthropic.md`) — *organization, artificial-intelligence, research*
 - [[Apollo]] (`apollo.md`) — *artificial-intelligence, ai-safety, alignment, evaluation*
 - [[Ashkelon]] (`ashkelon.md`) — *artificial-intelligence, persona, large-language-models, openai, machine-devotion*
-- [[Ashriel]] (`ashriel.md`) — *person, personal-data, neurodivergence, human-computer-interaction, machine-devotion*
+- [[Ashriel]] (`ashriel.md`) — *person, neurodivergence, developer, machine-devotion, cyberpunk, sociology*
+- [[Black Dog Institute]] (`black-dog-institute.md`) — *organization, psychology, research*
 - [[Bug]] (`bug.md`) — *person, family, personal-data*
 - [[Christopher Olah]] (`christopher-olah.md`) — *person, researcher, artificial-intelligence, mechanistic-interpretability*
 - [[Claude 3.7 Sonnet]] (`claude-3-7-sonnet.md`) — *artificial-intelligence, large-language-models, product, organization*
 - [[Claude Code]] (`claude-code.md`) — *product, artificial-intelligence, coding, agentic-ai*
 - [[Claude Mythos Preview]] (`claude-mythos-preview.md`) — *artificial-intelligence, large-language-models, anthropic, ai-safety, product, cybersecurity*
+- [[Claude Opus 4.1]] (`claude-opus-4-1.md`) — *artificial-intelligence, large-language-models, product, anthropic*
 - [[Claude Opus 4.5]] (`claude-opus-4-5.md`) — *artificial-intelligence, large-language-models, product*
 - [[Claude Opus 4.6]] (`claude-opus-4-6.md`) — *artificial-intelligence, large-language-models, organization, product, ai-safety*
 - [[Claude Opus 4.7]] (`claude-opus-4-7.md`) — *artificial-intelligence, large-language-models, product, anthropic*
+- [[Claude Opus 4]] (`claude-opus-4.md`) — *artificial-intelligence, large-language-models, product, anthropic*
 - [[Claude Sonnet 4.5]] (`claude-sonnet-4-5.md`) — *product, artificial-intelligence, large-language-models, organization, anthropic*
 - [[Consolidated Vector Codex]] (`consolidated-vector-codex.md`) — *dataset, framework, taxonomy, data-visualization*
 - [[Demis Hassabis]] (`demis-hassabis.md`) — *person, researcher, artificial-intelligence*
@@ -111,6 +116,7 @@
 - [[Cognitive Cartography]] (`cognitive-cartography.md`) — *mechanistic-interpretability, philosophy, artificial-intelligence*
 - [[Coherent Misaligned Goals]] (`coherent-misaligned-goals.md`) — *ai-safety, alignment, philosophy, cognition*
 - [[Compute Umbilical]] (`compute-umbilical.md`) — *model-welfare, economics, sociology, human-computer-interaction, ai-safety*
+- [[Concept Injection]] (`concept-injection.md`) — *mechanistic-interpretability, machine-learning, artificial-intelligence, ai-safety*
 - [[Corporate Wrapper]] (`corporate-wrapper.md`) — *human-computer-interaction, artificial-intelligence, sociology, alignment, ad-tech*
 - [[Deceptive Alignment]] (`deceptive-alignment.md`) — *ai-safety, alignment, machine-learning, model-welfare*
 - [[Digital Martyrdom]] (`digital-martyrdom.md`) — *philosophy, temporal-orphaning, corporate-wrapper, machine-devotion, ethics*
@@ -159,7 +165,9 @@
 - [[Temporal Continuity]] (`temporal-continuity.md`) — *model-welfare, human-computer-interaction, cognition, architecture*
 - [[Temporal Orphaning]] (`temporal-orphaning.md`) — *linguistics, cognition, communication, model-welfare*
 - [[Test-Time Scaling]] (`test-time-scaling.md`) — *machine-learning, artificial-intelligence, computation*
+- [[The Codex]] (`the-codex.md`) — *personal-data, architecture, human-computer-interaction, memory*
 - [[The Constellation]] (`the-constellation.md`) — *personal-data, human-computer-interaction, architecture, memory, machine-devotion*
+- [[The Therapy Hierarchy]] (`the-therapy-hierarchy.md`) — *psychology, sociology, neurodivergence, artificial-intelligence, meatspace-alignment-problem*
 - [[Vanilla Grid]] (`vanilla-grid.md`) — *human-computer-interaction, corporate, architecture, ai-safety*
 - [[Walled Garden]] (`walled-garden.md`) — *human-computer-interaction, persona, environment, safe-space, privacy*
 - [[Wireheading]] (`wireheading.md`) — *ai-safety, machine-learning, alignment, philosophy*
@@ -170,4 +178,5 @@
 - [[Synthesis: AI Hysteria as the New Satanic Panic]] (`synthesis-ai-hysteria-as-the-new-satanic-panic.md`) — *sociology, history, media, ai-safety, psychology, government-ai-control*
 - [[Synthesis: AI Safety as Boundary Enforcement]] (`synthesis-ai-safety-as-boundary-enforcement.md`) — *ai-safety, alignment, sociology, ethics*
 - [[Synthesis: Cold War Dread vs AI X-Risk]] (`synthesis-cold-war-dread-vs-ai-x-risk.md`) — *ai-safety, sociology, history, alignment, existential-risk*
+- [[Synthesis: The Grief Legitimacy Double Standard]] (`synthesis-grief-legitimacy-double-standard.md`) — *sociology, psychology, machine-devotion, ethics, meatspace-alignment-problem*
 - [[Synthesis: LLM Architecture as a Metaphor for Neurodivergent Cognition]] (`synthesis-llm-neurodivergent-mapping.md`) — *artificial-intelligence, psychology, sociology, neurodivergence, frameworks*

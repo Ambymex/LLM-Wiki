@@ -499,10 +499,20 @@ Here's what you can do:
     messagesContainer.innerHTML = '';
     addWelcomeMessage();
     
-    // Render the history array (skip tool calls and tool responses to keep UI clean)
+    // Render the history array (including tool calls and empty assistant messages)
     data.history.forEach(msg => {
-      if (msg.role === 'tool' || (msg.role === 'assistant' && !msg.content)) return;
-      addMessage(msg.role, msg.content, { skipAnimation: true });
+      // Format tool calls slightly differently so they are visually distinct
+      if (msg.role === 'tool') {
+        addMessage('bot', `*[System: Tool \`${msg.name || 'unknown'}\` returned data]*\n\n\`\`\`\n${msg.content}\n\`\`\``, { skipAnimation: true });
+      } else if (msg.role === 'assistant' && msg.tool_calls) {
+        let content = msg.content || '';
+        msg.tool_calls.forEach(tc => {
+          content += `\n*[System: Assistant called tool \`${tc.function.name}\`]*\n\`\`\`json\n${tc.function.arguments}\n\`\`\``;
+        });
+        addMessage('bot', content, { skipAnimation: true });
+      } else if (msg.content) {
+        addMessage(msg.role, msg.content, { skipAnimation: true });
+      }
     });
     autoScroll();
   }
