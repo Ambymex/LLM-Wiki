@@ -1,0 +1,17 @@
+{
+  "name": "LLM Wiki",
+  "short_name": "LLM Wiki",
+  "description": "Your personal AI-powered knowledge base",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#141822",
+  "theme_color": "#141822",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

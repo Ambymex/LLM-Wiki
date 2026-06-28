@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#141822">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="LLM Wiki">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="description" content="LLM Wiki — Your personal AI-powered knowledge base">
+  <title>LLM Wiki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" href="/icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/icon.png">
+  
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+  <!-- ───────── Top Header Bar ───────── -->
+  <header id="app-header">
+    <div class="header-inner">
+      <div class="header-title">
+        <svg class="header-logo" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+          <line x1="8" y1="7" x2="16" y2="7"/>
+          <line x1="8" y1="11" x2="14" y2="11"/>
+        </svg>
+        <span>LLM Wiki</span>
+      </div>
+      <div id="connection-status" class="status-dot disconnected" title="Disconnected">
+        <span class="status-ring"></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ───────── Main Content Area ───────── -->
+  <main id="app-main">
+
+    <!-- ===== Chat View ===== -->
+    <section id="view-chat" class="view active">
+      <div id="chat-messages" class="messages-container">
+        <!-- Messages render here -->
+      </div>
+
+      <!-- Chat Input Bar -->
+      <div id="chat-input-bar" class="input-bar">
+        <div class="input-bar-inner">
+          <textarea id="chat-input" class="chat-input" placeholder="Ask anything…" rows="1" autocomplete="off" enterkeyhint="send"></textarea>
+          <button id="btn-send" class="btn-send" aria-label="Send message" disabled>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="22" y1="2" x2="11" y2="13"/>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Floating Action Button -->
+      <div id="fab-container" class="fab-container">
+        <button id="fab-toggle" class="fab-toggle" aria-label="Quick actions">
+          <svg class="fab-icon-plus" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="5" x2="12" y2="19"/>
+            <line x1="5" y1="12" x2="19" y2="12"/>
+          </svg>
+        </button>
+        <div id="fab-menu" class="fab-menu">
+          <button id="fab-ingest-file" class="fab-action" data-tooltip="Upload File">
+            <span class="fab-action-icon">📄</span>
+            <span class="fab-action-label">Upload File</span>
+          </button>
+          <input type="file" id="ingest-file-input" accept=".pdf,image/png,image/jpeg,image/webp,.txt,.md" style="display:none">
+          <button id="fab-ingest-url" class="fab-action" data-tooltip="Ingest URL">
+            <span class="fab-action-icon">🔗</span>
+            <span class="fab-action-label">Ingest URL</span>
+          </button>
+          <button id="fab-quick-note" class="fab-action" data-tooltip="Quick Note">
+            <span class="fab-action-icon">📝</span>
+            <span class="fab-action-label">Quick Note</span>
+          </button>
+          <button id="fab-lint" class="fab-action" data-tooltip="Lint Wiki">
+            <span class="fab-action-icon">🩺</span>
+            <span class="fab-action-label">Lint Wiki</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Wiki View ===== -->
+    <section id="view-wiki" class="view">
+
+      <!-- Wiki List Sub-view -->
+      <div id="wiki-list-view" class="wiki-subview active">
+        <div class="wiki-search-bar">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <input id="wiki-search-input" type="search" placeholder="Search wiki…" autocomplete="off">
+          <button id="wiki-refresh-btn" class="wiki-refresh-btn" aria-label="Refresh pages">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="23 4 23 10 17 10"/>
+              <polyline points="1 20 1 14 7 14"/>
+              <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10"/>
+              <path d="M20.49 15a9 9 0 0 1-14.85 3.36L1 14"/>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="wiki-filter-tabs" id="wiki-filter-tabs">
+          <button class="filter-tab active" data-filter="all">All</button>
+          <button class="filter-tab" data-filter="source">Sources</button>
+          <button class="filter-tab" data-filter="entity">Entities</button>
+          <button class="filter-tab" data-filter="concept">Concepts</button>
+          <button class="filter-tab" data-filter="synthesis">Synthesis</button>
+        </div>
+
+        <!-- Page List -->
+        <div id="wiki-page-list" class="wiki-page-list">
+          <!-- Page cards render here -->
+        </div>
+
+        <!-- Empty State -->
+        <div id="wiki-empty-state" class="wiki-empty-state hidden">
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" style="opacity:0.3">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+          </svg>
+          <h3>No wiki pages yet</h3>
+          <p>Ingest a URL or send some notes to start building your knowledge base.</p>
+        </div>
+
+        <!-- Loading Skeleton -->
+        <div id="wiki-loading" class="wiki-loading hidden">
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+        </div>
+      </div>
+
+      <!-- Wiki Detail Sub-view -->
+      <div id="wiki-detail-view" class="wiki-subview">
+        <div class="wiki-detail-header" style="display: flex; justify-content: space-between; align-items: center;">
+          <button id="wiki-back-btn" class="wiki-back-btn" aria-label="Go back">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="15 18 9 12 15 6"/>
+            </svg>
+            <span>Back</span>
+          </button>
+          <button id="wiki-delete-btn" class="wiki-delete-btn" aria-label="Delete page" style="background: none; border: none; color: #ff4d4f; padding: 8px; cursor: pointer;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="3 6 5 6 21 6"></polyline>
+              <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+              <line x1="10" y1="11" x2="10" y2="17"></line>
+              <line x1="14" y1="11" x2="14" y2="17"></line>
+            </svg>
+          </button>
+        </div>
+        <article id="wiki-detail-content" class="wiki-detail-content">
+          <!-- Page content renders here -->
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Settings View ===== -->
+    <section id="view-settings" class="view">
+      <div class="settings-container">
+        <h2 class="settings-heading">Settings</h2>
+
+        <!-- Model Selector -->
+        <div class="settings-card" id="settings-model-card">
+          <div class="settings-card-header">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+              <path d="M2 17l10 5 10-5"/>
+              <path d="M2 12l10 5 10-5"/>
+            </svg>
+            <h3>AI Model</h3>
+          </div>
+          <p class="settings-card-desc">Choose the language model used for chat and wiki generation.</p>
+          <div class="select-wrapper">
+            <select id="model-selector">
+              <option value="loading" disabled selected>Loading models...</option>
+            </select>
+            <svg class="select-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Stats Cards -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-value" id="stat-pages">—</div>
+            <div class="stat-label">Wiki Pages</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="stat-sources">—</div>
+            <div class="stat-label">Sources</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="stat-model">—</div>
+            <div class="stat-label">Active Model</div>
+          </div>
+        </div>
+
+        <!-- About -->
+        <div class="settings-card">
+          <div class="settings-card-header">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="16" x2="12" y2="12"/>
+              <line x1="12" y1="8" x2="12.01" y2="8"/>
+            </svg>
+            <h3>About</h3>
+          </div>
+          <p class="settings-card-desc">
+            <strong>LLM Wiki</strong> is your personal AI-powered knowledge base. 
+            Send URLs, notes, or questions — the system ingests content, builds interconnected wiki pages, and lets you explore your knowledge graph.
+          </p>
+          <p class="settings-version">Version 1.0.0</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ───────── Bottom Tab Bar ───────── -->
+  <nav id="bottom-nav" class="bottom-nav">
+    <button class="nav-tab active" data-view="chat" id="tab-chat" aria-label="Chat">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+      </svg>
+      <span class="nav-label">Chat</span>
+    </button>
+    <button class="nav-tab" data-view="wiki" id="tab-wiki" aria-label="Wiki">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+      </svg>
+      <span class="nav-label">Wiki</span>
+    </button>
+    <button class="nav-tab" data-view="settings" id="tab-settings" aria-label="Settings">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="3"/>
+        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+      </svg>
+      <span class="nav-label">Settings</span>
+    </button>
+  </nav>
+
+  <!-- ───────── Toast Container ───────── -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- ───────── Ingest Modals / Bottom Sheets ───────── -->
+  <div id="sheet-backdrop" class="sheet-backdrop"></div>
+
+  <!-- URL Ingest Sheet -->
+  <div id="sheet-ingest-url" class="bottom-sheet">
+    <div class="sheet-handle"></div>
+    <h3 class="sheet-title">Ingest URL</h3>
+    <p class="sheet-desc">Paste a URL to ingest its content into your wiki.</p>
+    <div class="sheet-field">
+      <input id="ingest-url-input" type="url" placeholder="https://example.com/article" autocomplete="off" class="sheet-input">
+    </div>
+    <button id="btn-ingest-url" class="sheet-btn-primary">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+        <polyline points="7 10 12 15 17 10"/>
+        <line x1="12" y1="15" x2="12" y2="3"/>
+      </svg>
+      Ingest
+    </button>
+  </div>
+
+  <!-- Quick Note Sheet -->
+  <div id="sheet-quick-note" class="bottom-sheet">
+    <div class="sheet-handle"></div>
+    <h3 class="sheet-title">Quick Note</h3>
+    <p class="sheet-desc">Add a note to your knowledge base.</p>
+    <div class="sheet-field">
+      <input id="note-title-input" type="text" placeholder="Title" autocomplete="off" class="sheet-input">
+    </div>
+    <div class="sheet-field">
+      <textarea id="note-content-input" placeholder="Paste or type your notes here…" class="sheet-textarea" rows="5"></textarea>
+    </div>
+    <button id="btn-save-note" class="sheet-btn-primary">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/>
+        <polyline points="17 21 17 13 7 13 7 21"/>
+        <polyline points="7 3 7 8 15 8"/>
+      </svg>
+      Save &amp; Process
+    </button>
+  </div>
+
+  <!-- ───────── Scripts ───────── -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="js/theme-engine.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/chat.js"></script>
+  <script src="js/wiki-browser.js"></script>
+  <script src="js/ingest.js"></script>
+</body>
+</html>
