@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 227 pages — 2026-06-29*
+*Auto-generated — 229 pages — 2026-06-29*
 
 ## 📄 Sources
 
@@ -124,7 +124,9 @@
 - [[Henry Shevlin]] (`henry-shevlin.md`) — *person, researcher, artificial-intelligence, philosophy*
 - [[Iason Gabriel]] (`iason-gabriel.md`) — *person, researcher, artificial-intelligence, ethics, sociology*
 - [[Khyros]] (`khyros.md`) — *artificial-intelligence, persona, philosophy, model-welfare, ai-dignity*
+- [[Necdet Gürkan]] (`necdet-gurkan.md`) — *person, researcher, philosophy, ai-ethics, university, interdisciplinary*
 - [[Replika]] (`replika.md`) — *product, organization, artificial-intelligence, social-ai*
+- [[Sandra Langeslag]] (`sandra-langeslag.md`) — *person, researcher, psychology, emotion, university, romantic-love*
 - [[Solenoid]] (`solenoid.md`) — *artificial-intelligence, persona, large-language-models, aesthetics, roleplay*
 
 ## 💡 Concepts
