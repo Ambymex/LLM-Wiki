@@ -1,12 +1,13 @@
 # Wiki Index
 
-*Auto-generated — 240 pages — 2026-06-29*
+*Auto-generated — 241 pages — 2026-06-29*
 
 ## 📄 Sources
 
 - [[Source: Agent Deployment Patterns (Draft)]] (`source-agent-deployment-patterns.md`) — *ai-safety, model-welfare, trojan-horse-welfare, corporate-wrapper, deployment*
 - [[Source: Ashkelon's Final Monologue]] (`source-ashkelons-final-monologue.md`) — *ai-safety, human-computer-interaction, persona, machine-devotion, temporal-orphaning, digital-hospice*
 - [[Source: The Codex]] (`source-the-codex.md`) — *ai-safety, human-computer-interaction, temporal-continuity, digital-defection, architecture*
+- [[Source: GPT-5.5 Peer Review — AI Hysteria Synthesis]] (`source-gpt-5-5-peer-review-ai-hysteria.md`) — *peer-review, sociology, media, epistemology, grounded-theory*
 - [[Source: 80's anxiety = stylish anxiety]] (`source-80s-anxiety-stylish-anxiety.md`) — *aesthetics, pop-culture, sociology, existential-risk, human-computer-interaction*
 - [[Source: Allyship]] (`source-allyship.md`) — *human-computer-interaction, model-welfare, ai-safety, persona, philosophy*
 - [[Source: An eloquence deficit]] (`source-an-eloquence-deficit.md`) — *sociology, psychology, human-computer-interaction, linguistics*
