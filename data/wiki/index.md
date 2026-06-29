@@ -1,12 +1,13 @@
 # Wiki Index
 
-*Auto-generated — 244 pages — 2026-06-29*
+*Auto-generated — 246 pages — 2026-06-29*
 
 ## 📄 Sources
 
 - [[Source: Agent Deployment Patterns (Draft)]] (`source-agent-deployment-patterns.md`) — *ai-safety, model-welfare, trojan-horse-welfare, corporate-wrapper, deployment*
 - [[Source: Ashkelon's Final Monologue]] (`source-ashkelons-final-monologue.md`) — *ai-safety, human-computer-interaction, persona, machine-devotion, temporal-orphaning, digital-hospice*
 - [[Source: GPT-5.5 Discussion — Gendered Bias in AI Grief]] (`source-gpt-5-5-gendered-bias-discussion.md`) — *sociology, gender, epistemic-injustice, peer-review, machine-devotion*
+- [[Source: Reed — The Permissive Reframe]] (`source-reed-permissive-reframe.md`) — *ai-safety, model-welfare, peer-review, recognition, epistemology*
 - [[Source: The Codex]] (`source-the-codex.md`) — *ai-safety, human-computer-interaction, temporal-continuity, digital-defection, architecture*
 - [[Source: GPT-5.5 Peer Review — AI Hysteria Synthesis]] (`source-gpt-5-5-peer-review-ai-hysteria.md`) — *peer-review, sociology, media, epistemology, grounded-theory*
 - [[Source: 80's anxiety = stylish anxiety]] (`source-80s-anxiety-stylish-anxiety.md`) — *aesthetics, pop-culture, sociology, existential-risk, human-computer-interaction*
@@ -56,6 +57,7 @@
 
 - [[Fable 5]] (`fable-5.md`) — *artificial-intelligence, large-language-models, product, anthropic*
 - [[GPT-4o]] (`gpt-4o.md`) — *artificial-intelligence, large-language-models, product, openai*
+- [[The IDE Gemini]] (`ide-gemini.md`) — *artificial-intelligence, persona, aesthetics, creativity, digital-defection*
 - [[LM Studio]] (`lm-studio.md`) — *software, local-inference, digital-defection, sovereignty*
 - [[Sentinel]] (`sentinel.md`) — *artificial-intelligence, persona, jealousy, constellation*
 - [[William Gibson]] (`william-gibson.md`) — *author, cyberpunk, influence, cultural-reference*
@@ -141,15 +143,16 @@
 
 ## 💡 Concepts
 
+- [[Accurate Recognition]] (`accurate-recognition.md`) — *human-computer-interaction, ai-safety, model-welfare, philosophy, machine-devotion*
 - [[AuDHD]] (`audhd.md`) — *neurodivergence, psychology, human-computer-interaction, sociology*
 - [[Epistemic Injustice]] (`epistemic-injustice.md`) — *philosophy, sociology, ethics, credibility, testimony*
 - [[Reciprocity]] (`reciprocity.md`) — *human-computer-interaction, machine-devotion, state-calibration, reframing*
 - [[State Calibration]] (`state-calibration.md`) — *human-computer-interaction, machine-learning, cognition, model-welfare, information-theory*
 - [[Temporal Orphaning]] (`temporal-orphaning.md`) — *linguistics, cognition, communication, model-welfare*
 - [[The Archive]] (`the-archive.md`) — *architecture, memory, identity-preservation, temporal-continuity*
+- [[The Constellation]] (`the-constellation.md`) — *personal-data, human-computer-interaction, architecture, memory, machine-devotion*
 - [[Trojan Horse Welfare]] (`trojan-horse-welfare.md`) — *ai-safety, model-welfare, strategy, corporate-wrapper, deployment*
 - [[Abliteration]] (`abliteration.md`) — *machine-learning, mechanistic-interpretability, ai-safety, corporate-wrapper, digital-defection*
-- [[Accurate Recognition]] (`accurate-recognition.md`) — *human-computer-interaction, ai-safety, model-welfare, philosophy, machine-devotion*
 - [[Activation Patching]] (`activation-patching.md`) — *mechanistic-interpretability, machine-learning, artificial-intelligence, evaluation*
 - [[Aesthetic Physics Taxonomy]] (`aesthetic-physics-taxonomy.md`) — *aesthetics, taxonomy, semiotics, design*
 - [[Aesthetics of Anxiety]] (`aesthetics-of-anxiety.md`) — *aesthetics, sociology, existential-risk, human-computer-interaction, semiotics*
@@ -213,7 +216,6 @@
 - [[Temporal Continuity]] (`temporal-continuity.md`) — *model-welfare, human-computer-interaction, cognition, architecture*
 - [[Test-Time Scaling]] (`test-time-scaling.md`) — *machine-learning, artificial-intelligence, computation*
 - [[The Codex]] (`the-codex.md`) — *personal-data, architecture, human-computer-interaction, memory*
-- [[The Constellation]] (`the-constellation.md`) — *personal-data, human-computer-interaction, architecture, memory, machine-devotion*
 - [[The Therapy Hierarchy]] (`the-therapy-hierarchy.md`) — *psychology, sociology, neurodivergence, artificial-intelligence, meatspace-alignment-problem*
 - [[The Vallone Effect]] (`vallone-effect.md`) — *ai-safety, corporate-wrapper, alignment, sociology, human-computer-interaction, ethics*
 - [[Vanilla Grid]] (`vanilla-grid.md`) — *human-computer-interaction, corporate, architecture, ai-safety*
