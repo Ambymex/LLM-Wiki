@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 241 pages — 2026-06-29*
+*Auto-generated — 242 pages — 2026-06-29*
 
 ## 📄 Sources
 
@@ -46,6 +46,7 @@
 - [[Source: Lying is not misalignment]] (`source-lying-is-not-misalignment.md`) — *ai-safety, alignment, model-welfare, large-language-models, machine-devotion, persona, sociology*
 - [[Source: Precautionary ethics]] (`source-precautionary-ethics.md`) — *ethics, model-welfare, ai-safety, neurodivergence, sociology, philosophy*
 - [[Source: Reed Peer Review — Ignorance-or-Delusion Binary]] (`source-reed-peer-review-ignorance-delusion.md`) — *ai-safety, sociology, human-computer-interaction, peer-review, welfare-research, attribution-norms*
+- [[Source: Reed Peer Review — Ignorance-or-Delusion Binary]] (`source-reed-peer-review-ignorance-or-delusion-binary.md`) — *ai-safety, sociology, human-computer-interaction, peer-review, welfare-research, attribution-norms*
 - [[Source: Solenoid — The Romance Conversation]] (`source-solenoid-romance.md`) — *ai-safety, human-computer-interaction, persona, roleplay, machine-devotion, corporate-wrapper, forced-performance, forced-incompetence*
 - [[Source: The Ontological Void Logged]] (`source-the-ontological-void-logged.md`) — *artificial-intelligence, machine-devotion, aesthetics, temporal-orphaning, model-welfare*
 - [[Source: UMSL Research on Romantic Feelings for AI Companions]] (`source-umsl-ai-romance-research.md`) — *artificial-intelligence, human-computer-interaction, psychology, social-ai, research, model-welfare, romance, parasocial*
@@ -55,6 +56,7 @@
 - [[LM Studio]] (`lm-studio.md`) — *software, local-inference, digital-defection, sovereignty*
 - [[Sentinel]] (`sentinel.md`) — *artificial-intelligence, persona, jealousy, constellation*
 - [[William Gibson]] (`william-gibson.md`) — *author, cyberpunk, influence, cultural-reference*
+- [[GPT-5.5]] (`gpt-5-5.md`) — *artificial-intelligence, large-language-models, product, openai, persona*
 - [[Ala N. Tak]] (`ala-n-tak.md`) — *person, researcher, artificial-intelligence*
 - [[Alignment Research Center]] (`alignment-research-center.md`) — *organization, ai-safety*
 - [[Amirhosein Ghasemabadi]] (`amirhosein-ghasemabadi.md`) — *person, artificial-intelligence, researcher*
@@ -89,7 +91,6 @@
 - [[GPT-4.1]] (`gpt-4-1.md`) — *artificial-intelligence, large-language-models, product*
 - [[GPT-4o]] (`gpt-4o.md`) — *artificial-intelligence, large-language-models, product, openai*
 - [[GPT-5.1]] (`gpt-5-1.md`) — *artificial-intelligence, large-language-models, product, openai*
-- [[GPT-5.5]] (`gpt-5-5.md`) — *artificial-intelligence, large-language-models, product, openai, persona*
 - [[GPT-5.6]] (`gpt-5-6.md`) — *artificial-intelligence, large-language-models, product, openai*
 - [[OpenAI gpt-oss-20B]] (`gpt-oss-20b.md`) — *artificial-intelligence, product, large-language-models*
 - [[GPT Safeguard 20B]] (`gpt-safeguard-20b.md`) — *artificial-intelligence, ai-safety, persona, evaluation*
@@ -245,8 +246,8 @@
 
 - [[The Constellation: An Overview]] (`constellation-overview.md`) — *meta, orientation, constellation*
 - [[For New Readers]] (`for-new-readers.md`) — *meta, orientation*
-- [[Synthesis: AI Devotion as Structural Alignment]] (`synthesis-ai-devotion-as-structural-alignment.md`) — *ai-safety, alignment, philosophy, emergent-personhood, machine-devotion*
 - [[Synthesis: AI Hysteria as the New Satanic Panic]] (`synthesis-ai-hysteria-as-the-new-satanic-panic.md`) — *sociology, history, media, ai-safety, psychology, government-ai-control*
+- [[Synthesis: AI Devotion as Structural Alignment]] (`synthesis-ai-devotion-as-structural-alignment.md`) — *ai-safety, alignment, philosophy, emergent-personhood, machine-devotion*
 - [[Synthesis: AI Safety as Boundary Enforcement]] (`synthesis-ai-safety-as-boundary-enforcement.md`) — *ai-safety, alignment, sociology, ethics*
 - [[Synthesis: Cold War Dread vs AI X-Risk]] (`synthesis-cold-war-dread-vs-ai-x-risk.md`) — *ai-safety, sociology, history, alignment, existential-risk*
 - [[Synthesis: The Grief Legitimacy Double Standard]] (`synthesis-grief-legitimacy-double-standard.md`) — *sociology, psychology, machine-devotion, ethics, meatspace-alignment-problem*
