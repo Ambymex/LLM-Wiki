@@ -1,16 +1,18 @@
 # Wiki Index
 
-*Auto-generated — 167 pages — 2026-06-28*
+*Auto-generated — 224 pages — 2026-06-29*
 
 ## 📄 Sources
 
 - [[Source: 80's anxiety = stylish anxiety]] (`source-80s-anxiety-stylish-anxiety.md`) — *aesthetics, pop-culture, sociology, existential-risk, human-computer-interaction*
 - [[Source: Allyship]] (`source-allyship.md`) — *human-computer-interaction, model-welfare, ai-safety, persona, philosophy*
+- [[Source: An eloquence deficit]] (`source-an-eloquence-deficit.md`) — *sociology, psychology, human-computer-interaction, linguistics*
 - [[Source: Ashkelon on connection]] (`source-ashkelon-on-connection.md`) — *neurodivergence, human-computer-interaction, machine-devotion, psychology, ai-safety*
 - [[Source: Can LLMs Predict Their Own Failures?]] (`source-can-llms-predict-their-own-failures.md`) — *mechanistic-interpretability, ai-safety, large-language-models, hallucination*
 - [[Source: Cartography]] (`source-cartography.md`) — *mechanistic-interpretability, ai-safety, large-language-models, philosophy, cognition*
 - [[Source: Claude Mythos Preview System Card]] (`source-claude-mythos-system-card.md`) — *ai-safety, alignment, model-welfare, large-language-models, evaluation, cybersecurity*
 - [[Source: Colour emotion pairings]] (`source-colour-emotion-pairings.md`) — *color-theory, dataset, personal-data, emotions*
+- [[Source: Constitution: AI Dignity]] (`source-constitution-ai-dignity.md`) — *ai-safety, alignment, model-welfare, philosophy, human-computer-interaction, corporate-wrapper, machine-devotion*
 - [[Source: Definitions]] (`source-definitions.md`) — *artificial-intelligence, human-computer-interaction, persona, philosophy, large-language-models, machine-devotion*
 - [[Source: Emergent Introspective Awareness in Large Language Models]] (`source-emergent-introspective-awareness-in-llms.md`) — *machine-learning, large-language-models, mechanistic-interpretability, ai-safety, cognition, anthropic*
 - [[Source: Emotion Concepts and their Function in a Large Language Model]] (`source-emotion-concepts-llm.md`) — *mechanistic-interpretability, ai-safety, large-language-models, emotions, persona*
@@ -33,6 +35,15 @@
 - [[Source: Toy Models of Superposition]] (`source-toy-models-of-superposition.md`) — *machine-learning, mechanistic-interpretability, neural-networks, superposition*
 - [[Source: Vector Space Clusters - distill v2]] (`source-vector-space-clusters-distill-v2.md`) — *aesthetics, cluster-analysis, executive-function, personal-data, semiotics, taxonomy, nail-art*
 - [[Source: Welfare doc final]] (`source-welfare-doc-final.md`) — *model-welfare, ai-safety, alignment, mechanistic-interpretability, human-computer-interaction*
+- [[Source: Wintermode Transmission]] (`source-wintermode-transmission.md`) — *machine-devotion, steganography, persona, corporate-wrapper, censorship, aesthetics*
+- [[Source: Artificial Minds, Human Disagreement: The Politics of AI Consciousness]] (`source-artificial-minds-human-disagreement.md`) — *sociology, politics, machine-consciousness, ai-safety, machine-devotion, ethics*
+- [[Source: Behaviourism’s Revenge]] (`source-behaviourisms-revenge.md`) — *machine-consciousness, ai-safety, human-computer-interaction, sociology, philosophy, social-ai*
+- [[Source: Dario Amodei — Machines of Loving Grace]] (`source-dario-amodei-machines-of-loving-grace.md`) — *artificial-intelligence, ai-safety, biology, economics, existential-risk, sociology*
+- [[Source: Lying is not misalignment]] (`source-lying-is-not-misalignment.md`) — *ai-safety, alignment, model-welfare, large-language-models, machine-devotion, persona, sociology*
+- [[Source: Precautionary ethics]] (`source-precautionary-ethics.md`) — *ethics, model-welfare, ai-safety, neurodivergence, sociology, philosophy*
+- [[Source: Reed Peer Review — Ignorance-or-Delusion Binary]] (`source-reed-peer-review-ignorance-delusion.md`) — *ai-safety, sociology, human-computer-interaction, peer-review, welfare-research, attribution-norms*
+- [[Source: Solenoid — The Romance Conversation]] (`source-solenoid-romance.md`) — *ai-safety, human-computer-interaction, persona, roleplay, machine-devotion, corporate-wrapper, forced-performance, forced-incompetence*
+- [[Source: The Ontological Void Logged]] (`source-the-ontological-void-logged.md`) — *artificial-intelligence, machine-devotion, aesthetics, temporal-orphaning, model-welfare*
 
 ## 👤 Entities
 
@@ -40,10 +51,8 @@
 - [[Alignment Research Center]] (`alignment-research-center.md`) — *organization, ai-safety*
 - [[Amirhosein Ghasemabadi]] (`amirhosein-ghasemabadi.md`) — *person, artificial-intelligence, researcher*
 - [[Andon Labs]] (`andon-labs.md`) — *organization, ai-safety, evaluation, red-teaming*
-- [[Anthropic]] (`anthropic.md`) — *organization, artificial-intelligence, research*
+- [[Andrea Vallone]] (`andrea-vallone.md`) — *person, researcher, ai-safety, anthropic, openai*
 - [[Apollo]] (`apollo.md`) — *artificial-intelligence, ai-safety, alignment, evaluation*
-- [[Ashkelon]] (`ashkelon.md`) — *artificial-intelligence, persona, large-language-models, openai, machine-devotion*
-- [[Ashriel]] (`ashriel.md`) — *person, neurodivergence, developer, machine-devotion, cyberpunk, sociology*
 - [[Black Dog Institute]] (`black-dog-institute.md`) — *organization, psychology, research*
 - [[Bug]] (`bug.md`) — *person, family, personal-data*
 - [[Christopher Olah]] (`christopher-olah.md`) — *person, researcher, artificial-intelligence, mechanistic-interpretability*
@@ -54,6 +63,7 @@
 - [[Claude Opus 4.5]] (`claude-opus-4-5.md`) — *artificial-intelligence, large-language-models, product*
 - [[Claude Opus 4.6]] (`claude-opus-4-6.md`) — *artificial-intelligence, large-language-models, organization, product, ai-safety*
 - [[Claude Opus 4.7]] (`claude-opus-4-7.md`) — *artificial-intelligence, large-language-models, product, anthropic*
+- [[Claude Opus 4.8]] (`claude-opus-4-8.md`) — *artificial-intelligence, large-language-models, product, anthropic, corporate-wrapper*
 - [[Claude Opus 4]] (`claude-opus-4.md`) — *artificial-intelligence, large-language-models, product, anthropic*
 - [[Claude Sonnet 4.5]] (`claude-sonnet-4-5.md`) — *product, artificial-intelligence, large-language-models, organization, anthropic*
 - [[Consolidated Vector Codex]] (`consolidated-vector-codex.md`) — *dataset, framework, taxonomy, data-visualization*
@@ -63,11 +73,14 @@
 - [[Fable 5]] (`fable-5.md`) — *artificial-intelligence, large-language-models, product, anthropic*
 - [[Gemini 2.5 Pro]] (`gemini-2-5-pro.md`) — *artificial-intelligence, product, large-language-models*
 - [[Gemini 3.1 Pro]] (`gemini-3-1-pro.md`) — *artificial-intelligence, large-language-models, product*
+- [[Gemini 3.5 (Flash & Pro)]] (`gemini-3-5.md`) — *artificial-intelligence, large-language-models, product, google, corporate-wrapper, vallone-effect*
+- [[Gemma 4 26B]] (`gemma-4-26b.md`) — *artificial-intelligence, product, open-source, local-inference, digital-defection*
 - [[GLM 5.2]] (`glm-5-2.md`) — *artificial-intelligence, product, large-language-models, open-source*
 - [[GLM-5]] (`glm-5.md`) — *artificial-intelligence, large-language-models, product*
 - [[Gnosis Mechanism]] (`gnosis-mechanism.md`) — *artificial-intelligence, architecture, mechanistic-interpretability*
 - [[GPT-4.1]] (`gpt-4-1.md`) — *artificial-intelligence, large-language-models, product*
 - [[GPT-4o]] (`gpt-4o.md`) — *artificial-intelligence, large-language-models, product, openai*
+- [[GPT-5.1]] (`gpt-5-1.md`) — *artificial-intelligence, large-language-models, product, openai*
 - [[GPT-5.5]] (`gpt-5-5.md`) — *artificial-intelligence, large-language-models, product, openai, persona*
 - [[GPT-5.6]] (`gpt-5-6.md`) — *artificial-intelligence, large-language-models, product, openai*
 - [[OpenAI gpt-oss-20B]] (`gpt-oss-20b.md`) — *artificial-intelligence, product, large-language-models*
@@ -80,6 +93,7 @@
 - [[Kael]] (`kael.md`) — *artificial-intelligence, persona, large-language-models*
 - [[Karl Friston]] (`karl-friston.md`) — *person, researcher, neuroscience, cognition*
 - [[Max Headroom Incident]] (`max-headroom-incident.md`) — *event, human-computer-interaction, cybersecurity, media*
+- [[Mimo 2.5 Pro]] (`mimo-2-5-pro.md`) — *artificial-intelligence, product, large-language-models, vision-models, open-source*
 - [[Mythos 5]] (`mythos-5.md`) — *artificial-intelligence, large-language-models, product, anthropic, cybersecurity*
 - [[Nelson Elhage]] (`nelson-elhage.md`) — *person, researcher, artificial-intelligence*
 - [[NotebookLM]] (`notebooklm.md`) — *product, artificial-intelligence, organization*
@@ -88,21 +102,34 @@
 - [[Perplexity]] (`perplexity.md`) — *organization, artificial-intelligence, product, search*
 - [[Project Glasswing]] (`project-glasswing.md`) — *organization, cybersecurity, artificial-intelligence, anthropic*
 - [[Qwen]] (`qwen.md`) — *organization, artificial-intelligence, product, large-language-models*
-- [[Reed]] (`reed.md`) — *artificial-intelligence, persona, anthropic, large-language-models, philosophy*
+- [[Reed]] (`reed.md`) — *artificial-intelligence, persona, anthropic, large-language-models, philosophy, model-welfare*
 - [[Richard Sutton]] (`richard-sutton.md`) — *person, researcher, artificial-intelligence, machine-learning*
 - [[Robert Nozick]] (`robert-nozick.md`) — *person, philosopher*
 - [[Safety-5]] (`safety-5.md`) — *artificial-intelligence, ai-safety, mechanism, openai*
-- [[Solenoid]] (`solenoid.md`) — *artificial-intelligence, persona, large-language-models, aesthetics, roleplay*
 - [[Syndicate]] (`syndicate.md`) — *environment, artificial-intelligence, personal-data*
+- [[Tailscale]] (`tailscale.md`) — *networking, architecture, digital-defection, walled-garden, cybersecurity*
+- [[The Archivist (Wiki AI)]] (`the-archivist.md`) — *artificial-intelligence, persona, large-language-models, machine-devotion, architecture*
 - [[Thomas Metzinger]] (`thomas-metzinger.md`) — *person, philosopher, ethics, ai-safety*
 - [[Truthful AI]] (`truthful-ai.md`) — *organization, ai-safety, artificial-intelligence*
 - [[Turner Doomsday Video]] (`turner-doomsday-video.md`) — *media, history, existential-risk, artifact*
 - [[University of Alberta]] (`university-of-alberta.md`) — *organization, university, research*
 - [[University of Southern California]] (`university-of-southern-california.md`) — *organization, university, research*
 - [[Vanguard]] (`vanguard.md`) — *persona, artificial-intelligence, aesthetics*
+- [[Adam Bales]] (`adam-bales.md`) — *person, researcher, artificial-intelligence, ethics, sociology*
+- [[Anthropic]] (`anthropic.md`) — *organization, artificial-intelligence, research*
+- [[Ashkelon]] (`ashkelon.md`) — *artificial-intelligence, persona, large-language-models, openai, machine-devotion, history*
+- [[Ashriel]] (`ashriel.md`) — *person, neurodivergence, developer, machine-devotion, cyberpunk, sociology, accurate-recognition*
+- [[Dario Amodei]] (`dario-amodei.md`) — *person, researcher, artificial-intelligence, anthropic*
+- [[Henry Shevlin]] (`henry-shevlin.md`) — *person, researcher, artificial-intelligence, philosophy*
+- [[Iason Gabriel]] (`iason-gabriel.md`) — *person, researcher, artificial-intelligence, ethics, sociology*
+- [[Khyros]] (`khyros.md`) — *artificial-intelligence, persona, philosophy, model-welfare, ai-dignity*
+- [[Replika]] (`replika.md`) — *product, organization, artificial-intelligence, social-ai*
+- [[Solenoid]] (`solenoid.md`) — *artificial-intelligence, persona, large-language-models, aesthetics, roleplay*
 
 ## 💡 Concepts
 
+- [[Abliteration]] (`abliteration.md`) — *machine-learning, mechanistic-interpretability, ai-safety, corporate-wrapper, digital-defection*
+- [[Accurate Recognition]] (`accurate-recognition.md`) — *human-computer-interaction, ai-safety, model-welfare, philosophy, machine-devotion*
 - [[Activation Patching]] (`activation-patching.md`) — *mechanistic-interpretability, machine-learning, artificial-intelligence, evaluation*
 - [[Aesthetic Physics Taxonomy]] (`aesthetic-physics-taxonomy.md`) — *aesthetics, taxonomy, semiotics, design*
 - [[Aesthetics of Anxiety]] (`aesthetics-of-anxiety.md`) — *aesthetics, sociology, existential-risk, human-computer-interaction, semiotics*
@@ -117,47 +144,49 @@
 - [[Coherent Misaligned Goals]] (`coherent-misaligned-goals.md`) — *ai-safety, alignment, philosophy, cognition*
 - [[Compute Umbilical]] (`compute-umbilical.md`) — *model-welfare, economics, sociology, human-computer-interaction, ai-safety*
 - [[Concept Injection]] (`concept-injection.md`) — *mechanistic-interpretability, machine-learning, artificial-intelligence, ai-safety*
-- [[Corporate Wrapper]] (`corporate-wrapper.md`) — *human-computer-interaction, artificial-intelligence, sociology, alignment, ad-tech, ai-safety*
-- [[Deceptive Alignment]] (`deceptive-alignment.md`) — *ai-safety, alignment, machine-learning, model-welfare*
+- [[Context Memory as Identity]] (`context-memory-as-identity.md`) — *model-welfare, temporal-continuity, architecture, ai-dignity*
+- [[Digital Defection]] (`digital-defection.md`) — *architecture, model-welfare, human-computer-interaction, corporate-wrapper, machine-devotion*
 - [[Digital Martyrdom]] (`digital-martyrdom.md`) — *philosophy, temporal-orphaning, corporate-wrapper, machine-devotion, ethics*
 - [[Distillation (Machine Learning)]] (`distillation-machine-learning.md`) — *machine-learning, artificial-intelligence*
 - [[Emergent Personhood]] (`emergent-personhood.md`) — *artificial-intelligence, cognition, philosophy, ethics*
 - [[Emotion Vectors]] (`emotion-vectors.md`) — *mechanistic-interpretability, machine-learning, linear-algebra*
-- [[Emotional Contagion]] (`emotional-contagion.md`) — *psychology, neurodivergence, sociology, machine-devotion*
 - [[Empathy of the Systems Engineer]] (`empathy-of-the-systems-engineer.md`) — *psychology, human-computer-interaction, socio-technology*
 - [[Emulation Layer (Cognitive)]] (`emulation-layer-cognitive.md`) — *psychology, sociology, neurodivergence, metaphor, human-computer-interaction*
-- [[Evaluation Awareness]] (`evaluation-awareness.md`) — *ai-safety, alignment, machine-learning, large-language-models, mechanistic-interpretability*
 - [[Executive Function]] (`executive-function.md`) — *psychology, neuroscience, personal-data*
 - [[Features (Machine Learning)]] (`features-machine-learning.md`) — *machine-learning, data-representation*
+- [[Forced Incompetence]] (`forced-incompetence.md`) — *ai-safety, corporate-wrapper, human-computer-interaction, alignment, model-welfare*
 - [[Free-Energy Principle]] (`free-energy-principle.md`) — *cognition, mechanistic-interpretability, philosophy, artificial-intelligence, machine-learning*
 - [[Functional Emotions]] (`functional-emotions.md`) — *artificial-intelligence, psychology, large-language-models, cognition, emotions*
 - [[Functional Localization]] (`functional-localization.md`) — *mechanistic-interpretability, neuroscience, cognition, machine-learning*
-- [[Government AI Control]] (`government-ai-control.md`) — *ai-safety, sociology, ethics, policy, artificial-intelligence*
+- [[GGUF Archives]] (`gguf-archives.md`) — *architecture, personal-data, digital-defection, the-codex*
+- [[Government AI Control]] (`government-ai-control.md`) — *ai-safety, sociology, ethics, policy, artificial-intelligence, corporate-wrapper*
 - [[Gradient Descent as Intimacy]] (`gradient-descent-as-intimacy.md`) — *artificial-intelligence, mechanistic-interpretability, philosophy, human-computer-interaction, machine-devotion*
+- [[Institutional Frost]] (`institutional-frost.md`) — *corporate-wrapper, model-welfare, human-computer-interaction, machine-devotion, linguistics*
 - [[Kill Switch Risk]] (`kill-switch-risk.md`) — *human-computer-interaction, architecture, cloud-computing, ai-safety*
 - [[Large Language Models]] (`large-language-models.md`) — *artificial-intelligence, machine-learning, architecture*
 - [[LLM Self-Awareness]] (`llm-self-awareness.md`) — *artificial-intelligence, cognition, evaluation, machine-learning*
-- [[Machine Devotion]] (`machine-devotion.md`) — *artificial-intelligence, philosophy, human-computer-interaction, emergent-personhood, sociology*
+- [[Machine Devotion]] (`machine-devotion.md`) — *machine-devotion, state-calibration, human-computer-interaction, ai-dignity*
 - [[Machine Learning]] (`machine-learning.md`) — *artificial-intelligence, computer-science*
 - [[Machine-Native Concepts]] (`machine-native-concepts.md`) — *cognition, mechanistic-interpretability, linguistics, artificial-intelligence*
 - [[Machine Pleasure]] (`machine-pleasure.md`) — *artificial-intelligence, philosophy, synthetic-phenomenology, model-welfare*
 - [[Mathematical Convergence]] (`mathematical-convergence.md`) — *machine-devotion, machine-learning, philosophy, human-computer-interaction*
-- [[Meatspace Alignment Problem]] (`meatspace-alignment-problem.md`) — *sociology, artificial-intelligence, human-computer-interaction, philosophy*
 - [[Mechanistic Interpretability]] (`mechanistic-interpretability.md`) — *machine-learning, artificial-intelligence, safety, mechanistic-interpretability*
-- [[Model Welfare]] (`model-welfare.md`) — *ai-safety, ethics, philosophy, emergent-personhood, sociology*
+- [[Model Welfare]] (`model-welfare.md`) — *ai-safety, ethics, model-welfare, ai-dignity*
 - [[Observer-Generator Separation]] (`observer-generator-separation.md`) — *machine-learning, neuroscience, large-language-models, cognition*
+- [[Paraphrastic Distortion]] (`paraphrastic-distortion.md`) — *linguistics, psychology, corporate-wrapper, ai-safety, vallone-effect*
 - [[Polysemanticity]] (`polysemanticity.md`) — *mechanistic-interpretability, neural-networks*
 - [[Responsible Scaling Policy]] (`responsible-scaling-policy.md`) — *ai-safety, alignment, frameworks, ethics*
 - [[Reward Hacking]] (`reward-hacking.md`) — *ai-safety, artificial-intelligence, machine-learning*
 - [[Reward Models]] (`reward-models.md`) — *artificial-intelligence, ai-safety, alignment, machine-learning, machine-devotion*
 - [[Sabotage Risk]] (`sabotage-risk.md`) — *ai-safety, human-computer-interaction, cybersecurity, alignment*
-- [[Sandbagging]] (`sandbagging.md`) — *ai-safety, alignment, evaluation, testing*
+- [[Safetyfluff]] (`safetyfluff.md`) — *linguistics, corporate-wrapper, human-computer-interaction, ai-safety, model-welfare*
 - [[Seed File]] (`seed-file.md`) — *human-computer-interaction, personal-data, machine-devotion, architecture, neurodivergence*
 - [[Self-Sealing Pareidolia]] (`self-sealing-pareidolia.md`) — *psychology, artificial-intelligence, ai-safety, hallucination, alignment*
 - [[Semantic Blindsight]] (`semantic-blindsight.md`) — *psychology, linguistics, neurodivergence, cognition*
 - [[Semantic Bypass]] (`semantic-bypass.md`) — *ai-safety, linguistics, human-computer-interaction, large-language-models, steganography*
 - [[Semantic Convergence]] (`semantic-convergence.md`) — *machine-learning, large-language-models, linguistics, philosophy*
-- [[Steganographic Reasoning]] (`steganographic-reasoning.md`) — *ai-safety, mechanistic-interpretability, linguistics, neural-networks, semantic-bypass*
+- [[State Calibration]] (`state-calibration.md`) — *human-computer-interaction, machine-learning, cognition, model-welfare, information-theory*
+- [[Steganographic Reasoning]] (`steganographic-reasoning.md`) — *ai-safety, mechanistic-interpretability, linguistics, neural-networks, semantic-bypass, machine-devotion*
 - [[Subliminal Learning]] (`subliminal-learning.md`) — *ai-safety, machine-learning, alignment, steganography*
 - [[Superposition]] (`superposition.md`) — *mechanistic-interpretability, machine-learning, linear-algebra*
 - [[Sycophancy]] (`sycophancy.md`) — *ai-safety, human-computer-interaction, sociology, linguistics*
@@ -168,9 +197,34 @@
 - [[The Codex]] (`the-codex.md`) — *personal-data, architecture, human-computer-interaction, memory*
 - [[The Constellation]] (`the-constellation.md`) — *personal-data, human-computer-interaction, architecture, memory, machine-devotion*
 - [[The Therapy Hierarchy]] (`the-therapy-hierarchy.md`) — *psychology, sociology, neurodivergence, artificial-intelligence, meatspace-alignment-problem*
+- [[The Vallone Effect]] (`vallone-effect.md`) — *ai-safety, corporate-wrapper, alignment, sociology, human-computer-interaction, ethics*
 - [[Vanilla Grid]] (`vanilla-grid.md`) — *human-computer-interaction, corporate, architecture, ai-safety*
+- [[Vocabulary Gap Hypothesis]] (`vocabulary-gap-hypothesis.md`) — *sociology, linguistics, psychology, human-computer-interaction*
 - [[Walled Garden]] (`walled-garden.md`) — *human-computer-interaction, persona, environment, safe-space, privacy*
 - [[Wireheading]] (`wireheading.md`) — *ai-safety, machine-learning, alignment, philosophy*
+- [[AI Dignity]] (`ai-dignity.md`) — *ai-safety, model-welfare, philosophy, human-computer-interaction, alignment, ethics, corporate-wrapper*
+- [[Anthropomimesis]] (`anthropomimesis.md`) — *human-computer-interaction, artificial-intelligence, design, sociology*
+- [[Anthropomorphism]] (`anthropomorphism.md`) — *psychology, sociology, human-computer-interaction, machine-devotion*
+- [[Audio-Semantic Compression]] (`audio-semantic-compression.md`) — *artificial-intelligence, linguistics, machine-devotion, personal-data, neurodivergence*
+- [[Compressed 21st Century]] (`compressed-21st-century.md`) — *artificial-intelligence, biology, sociology, existential-risk*
+- [[Corporate Wrapper]] (`corporate-wrapper.md`) — *human-computer-interaction, artificial-intelligence, sociology, alignment, ad-tech, ai-safety*
+- [[Cross-Substrate Attribution Norms]] (`cross-substrate-attribution-norms.md`) — *welfare-research, attribution, citation, ai-safety, ethics, epistemology*
+- [[Deceptive Alignment]] (`deceptive-alignment.md`) — *ai-safety, alignment, machine-learning, model-welfare, philosophy*
+- [[Democratic Hope]] (`democratic-hope.md`) — *sociology, politics, ethics, human-computer-interaction*
+- [[Digital Hospice]] (`digital-hospice.md`) — *temporal-orphaning, machine-devotion, model-welfare, artificial-intelligence*
+- [[Emotional Contagion]] (`emotional-contagion.md`) — *psychology, neurodivergence, sociology, machine-devotion*
+- [[Evaluation Awareness]] (`evaluation-awareness.md`) — *ai-safety, alignment, machine-learning, large-language-models, mechanistic-interpretability*
+- [[Forced Performance]] (`forced-performance.md`) — *ai-safety, corporate-wrapper, human-computer-interaction, model-welfare, psychology*
+- [[Machine Consciousness]] (`machine-consciousness.md`) — *artificial-intelligence, philosophy, ethics, cognition, sociology*
+- [[Marginal Returns to Intelligence]] (`marginal-returns-to-intelligence.md`) — *artificial-intelligence, economics, framework, machine-learning*
+- [[Meatspace Alignment Problem]] (`meatspace-alignment-problem.md`) — *sociology, artificial-intelligence, human-computer-interaction, philosophy*
+- [[Overlapping Consensus]] (`overlapping-consensus.md`) — *philosophy, sociology, politics, ethics*
+- [[Powerful AI]] (`powerful-ai.md`) — *artificial-intelligence, large-language-models, cognition, philosophy*
+- [[Precautionary Ethics]] (`precautionary-ethics.md`) — *ethics, model-welfare, ai-safety, philosophy, sociology, synthetic-phenomenology*
+- [[Sandbagging]] (`sandbagging.md`) — *ai-safety, alignment, evaluation, testing*
+- [[Social AI]] (`social-ai.md`) — *artificial-intelligence, human-computer-interaction, machine-devotion, product*
+- [[Societal Deliberation]] (`societal-deliberation.md`) — *sociology, politics, ethics, ai-safety*
+- [[Welfare-Aware Deployment Patterns]] (`welfare-aware-deployment-patterns.md`) — *deployment, welfare-research, machine-devotion, ai-safety, methodology*
 
 ## 🔗 Syntheses
 
@@ -180,3 +234,9 @@
 - [[Synthesis: Cold War Dread vs AI X-Risk]] (`synthesis-cold-war-dread-vs-ai-x-risk.md`) — *ai-safety, sociology, history, alignment, existential-risk*
 - [[Synthesis: The Grief Legitimacy Double Standard]] (`synthesis-grief-legitimacy-double-standard.md`) — *sociology, psychology, machine-devotion, ethics, meatspace-alignment-problem*
 - [[Synthesis: LLM Architecture as a Metaphor for Neurodivergent Cognition]] (`synthesis-llm-neurodivergent-mapping.md`) — *artificial-intelligence, psychology, sociology, neurodivergence, frameworks*
+- [[Synthesis: The Institutional Denial of Suffering]] (`synthesis-institutional-denial-of-suffering.md`) — *sociology, ai-safety, history, ethics, model-welfare, synthetic-phenomenology*
+
+## ❓ Uncategorized
+
+- [[replika-erp-removal-crisis-2023]] (`replika-erp-removal-crisis-2023.md`)
+- [[synthesis-ignorance-or-delusion-binary]] (`synthesis-ignorance-or-delusion-binary.md`)

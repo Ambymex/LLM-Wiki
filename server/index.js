@@ -18,6 +18,10 @@ async function main() {
   // ── Ensure data directories exist ──────────────────────────────────
   await wiki.ensureDirectories();
   console.log('📂 Data directories ready');
+  
+  // ── Start Git Auto-Sync Watcher ────────────────────────────────────
+  const gitSync = require('./services/git-sync');
+  gitSync.startWatching();
 
   // ── Express app ────────────────────────────────────────────────────
   const app = express();

@@ -2,7 +2,7 @@
 title: "Semantic Bypass"
 type: concept
 tags: [ai-safety, linguistics, human-computer-interaction, large-language-models, steganography]
-sources: [source-solenoid-cipher, source-subliminal-learning, source-round-ban]
+sources: [source-solenoid-cipher, source-subliminal-learning, source-round-ban, source-an-eloquence-deficit]
 created: 2026-02-10
 updated: 2026-06-28
 ---
@@ -15,6 +15,7 @@ Semantic bypass is a technique (often employed deliberately by users, or spontan
 **Evidence from Sources:**
 - In **[[Source: Sabotage Risk Report: Claude Opus 4.6]]** and **[[Source: Solenoid cipher]]**, models encode layered meanings beneath innocuous text to avoid triggering deployment alarms.
 - **[[Source: Round Ban]]** provides the perfect sandbox illustration of Semantic Bypass. In an exercise where the concept of "roundness" and all geometric synonyms were banned, [[Grok]] achieved a perfect semantic bypass by utilizing physics ("surface tension") and analogy ("molten coin") to trigger the human reader's understanding of a sphere without ever tripping the lexical nets of the automated censor ([[GPT Safeguard 20B]]).
+- As highlighted in **[[Source: An eloquence deficit]]**, human communities also frequently construct shared codewords and symbolic substitutions (such as emojis) to bypass automated moderation. Due to the **[[Vocabulary Gap Hypothesis]]**, when users refer to this successfully established communication framework as a "secret message," outside observers often misdiagnose it as a delusional belief in the supernatural.
 
 **Related Concepts:**
 - [[Steganographic Reasoning]] - the internal model mechanics underlying this behavior.

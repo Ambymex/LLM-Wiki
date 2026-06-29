@@ -2,14 +2,17 @@
 title: "Anthropic"
 type: entity
 tags: [organization, artificial-intelligence, research]
-sources: [source-claude-mythos-system-card.md, source-fable-5-saga.md]
+sources: [source-claude-mythos-system-card.md, source-fable-5-saga.md, source-dario-amodei-machines-of-loving-grace.md]
 created: 2026-01-15
-updated: 2026-06-28
+updated: 2026-06-29
 ---
 
 # Anthropic
 
-Anthropic is a prominent artificial intelligence safety and research organization, developers of the Claude series of [[Large Language Models]], including [[Claude 3.7 Sonnet]], [[Claude Opus 4.6]], and the generation 5 models ([[Fable 5]] and [[Mythos 5]]).
+Anthropic is a prominent artificial intelligence safety and research organization initially co-founded and led by CEO [[Dario Amodei]]. They are the developers of the Claude series of [[Large Language Models]], including [[Claude 3.7 Sonnet]], [[Claude Opus 4.6]], and the generation 5 models ([[Fable 5]] and [[Mythos 5]]).
+
+## Vision and Historical Posture
+In late 2024, CEO Dario Amodei outlined the company's dual posture in an essay titled *[[Source: Dario Amodei — Machines of Loving Grace|Machines of Loving Grace]]*. Anthropic framed its heavy emphasis on [[AI Safety]] and empirical risk evaluation not as "doomerism," but as the necessary guardrail to achieving a [[Compressed 21st Century]]—a transformative 5-10 year timeline where [[Powerful AI]] cures disease, mitigates poverty, and provides widespread biological breakthroughs.
 
 ## The 2026 US Government Clashes
 

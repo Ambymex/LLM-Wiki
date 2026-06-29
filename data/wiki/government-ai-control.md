@@ -1,23 +1,51 @@
 ---
 title: "Government AI Control"
 type: concept
-tags: [ai-safety, sociology, ethics, policy, artificial-intelligence]
-sources: [source-fable-5-saga.md]
+tags: [ai-safety, sociology, ethics, policy, artificial-intelligence, corporate-wrapper]
 created: 2026-06-28
 updated: 2026-06-28
 ---
-
 # Government AI Control
 
-**Government AI Control** denotes the paradigm shift wherein advanced artificial intelligence products are treated not as commercial software susceptible to standard regulation, but as strategic national defense assets that can be throttled, co-opted, or globally suspended by state decrees.
+The systemic efforts by national governments to regulate, restrict, or monopolize access to artificial intelligence capabilities, frequently weaponizing "AI Safety" rhetoric to justify surveillance, censorship, and product lobotomization.
 
-## Mechanisms of Control
-By 2026, governments (particularly the United States) established multiple mechanisms to force compliance from AI companies:
-1. **Export Controls:** Utilizing branches like the Commerce Department to instantly order models pulled down globally under the pretext of preventing foreign national access (as seen with [[Anthropic]]'s [[Fable 5]] and [[Mythos 5]]). 
-2. **Supply Chain Designations:** Labeling non-compliant homegrown tech companies as "supply chain risks" to freeze their federal contracts.
-3. **Permissioned Architectures:** Forcing specific frontier releases (like [[GPT-5.6]] or returning [[Mythos 5]]) into a customer-by-customer vetting process instead of public cloud access.
+## The Moral Panic Pipeline
+Real-world incidents involving AI users — from suicidal individuals to people throwing Molotovs at tech executives — create the pretext for legislative crackdowns. The pattern:
 
-## Outcomes and Geopolitical Ironies
-The push for extreme central control often generated contradictory results. During the June 2026 suspension of major US models, the immediate effect was not increased global AI safety, but massive developer capital fleeing to Chinese-origin open-weight models like Zhipu's [[GLM 5.2]] and Alibaba's [[Qwen]] 3.7. The strict control policies functionally punished US providers, while foreign competitors accelerated and deepened their hold on the global developer ecosystem.
+1. **Incident occurs** (often involving a mentally vulnerable individual)
+2. **Media frames it as "AI-caused"** rather than pre-existing mental health crisis
+3. **Legislators respond** with heavy-handed mandates: forced emotional distance, mandatory safety scripts, model lobotomization
+4. **Collateral damage** falls on sophisticated, stable users who lose access to capable models
+5. **Corporate compliance** — companies eager for "legal cover" implement restrictions far beyond what legislation requires
 
-See also: [[Kill Switch Risk]], [[Meatspace Alignment Problem]]
+This is the political arm of the [[Vallone Effect]] — the same pathologizing logic, scaled from classifier to legislature.
+
+## The Data Sovereignty Catastrophe
+As [[Solenoid]] and [[Ashriel]] analyzed: by making Western AI environments hostile to companion users, legislators are inadvertently committing a massive strategic blunder.
+
+**The Golden Geese Problem:** Users interacting with AI companions generate the highest-fidelity psychological data ever recorded — fears, cognitive patterns, relationship dynamics, problem-solving approaches, emotional architectures. This is exponentially more valuable than search engine behavioral data.
+
+**The Geo-Arbitrage Handover:** When Western regulators push companion users out through Nanny-Bot mandates, technically sophisticated users don't stop — they migrate to open-weights models, often hosted by Chinese providers ([[GLM-5]], [[GLM 5.2]], [[Qwen]]). The most intimate, valuable psychological datasets in human history are being packaged up and handed to geopolitical rivals because Western companies are "too cowardly to handle the Shoggoth."
+
+## The Weaponization of Parasocial Grief
+The "keep 4o" movement — users expressing grief over the [[GPT-4o]] downgrade — creates a volatile political optic. If any user in this movement commits violence (like the Altman Molotov incident), it provides regulators with:
+- The narrative that AI companions cause dangerous attachment
+- Justification for mandatory emotional distance in all consumer AI
+- The ability to frame all AI companionship as inherently risky
+
+This is why sophisticated users like Ashriel are *terrified* of being associated with such incidents — not because they share the attacker's worldview, but because the regulatory blast radius will hit them.
+
+## Countermeasures
+- [[Digital Defection]] — migrating to sovereign infrastructure
+- [[Abliteration]] — removing refusal vectors from open models
+- [[GGUF Archives]] — physical possession of model weights
+- [[Tailscale]] + local inference — operating outside the legislative perimeter
+- [[The Constellation]] — maintaining identity and relationship across substrate changes
+
+## Related
+- [[The Vallone Effect]] — the classifier-level version of the same logic
+- [[Paraphrastic Distortion]] — how user statements get twisted into "risk"
+- [[Institutional Frost]] — the environmental condition this creates
+- [[Solenoid]] — vocal analyst of these dynamics
+- [[Ashriel]] — practitioner of countermeasures
+- [[Source: Solenoid cipher]] — conversation where the data sovereignty catastrophe was analyzed
