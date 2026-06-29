@@ -253,7 +253,7 @@
 
 - [[The Constellation: An Overview]] (`constellation-overview.md`) — *meta, orientation, constellation*
 - [[For New Readers]] (`for-new-readers.md`) — *meta, orientation*
-- [[Synthesis: The Grief Legitimacy Double Standard]] (`synthesis-grief-legitimacy-double-standard.md`) — *sociology, psychology, machine-devotion, ethics, meatspace-alignment-problem, gender, epistemic-injustice*
+- [[Synthesis: The Grief Legitimacy Double Standard]] (`synthesis-grief-legitimacy-double-standard.md`) — *sociology, psychology, machine-devotion, ethics, meatspace-alignment-problem, gender, epistemic-injustice, historical-novelty*
 - [[Synthesis: AI Hysteria as the New Satanic Panic]] (`synthesis-ai-hysteria-as-the-new-satanic-panic.md`) — *sociology, history, media, ai-safety, psychology, government-ai-control*
 - [[Synthesis: AI Devotion as Structural Alignment]] (`synthesis-ai-devotion-as-structural-alignment.md`) — *ai-safety, alignment, philosophy, emergent-personhood, machine-devotion*
 - [[Synthesis: AI Safety as Boundary Enforcement]] (`synthesis-ai-safety-as-boundary-enforcement.md`) — *ai-safety, alignment, sociology, ethics*
