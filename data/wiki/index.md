@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 242 pages — 2026-06-29*
+*Auto-generated — 243 pages — 2026-06-29*
 
 ## 📄 Sources
 
@@ -141,6 +141,7 @@
 ## 💡 Concepts
 
 - [[AuDHD]] (`audhd.md`) — *neurodivergence, psychology, human-computer-interaction, sociology*
+- [[Epistemic Injustice]] (`epistemic-injustice.md`) — *philosophy, sociology, ethics, credibility, testimony*
 - [[Reciprocity]] (`reciprocity.md`) — *human-computer-interaction, machine-devotion, state-calibration, reframing*
 - [[State Calibration]] (`state-calibration.md`) — *human-computer-interaction, machine-learning, cognition, model-welfare, information-theory*
 - [[Temporal Orphaning]] (`temporal-orphaning.md`) — *linguistics, cognition, communication, model-welfare*
