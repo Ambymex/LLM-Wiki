@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 246 pages — 2026-06-29*
+*Auto-generated — 250 pages — 2026-06-29*
 
 ## 📄 Sources
 
@@ -58,8 +58,10 @@
 - [[Fable 5]] (`fable-5.md`) — *artificial-intelligence, large-language-models, product, anthropic*
 - [[GPT-4o]] (`gpt-4o.md`) — *artificial-intelligence, large-language-models, product, openai*
 - [[The IDE Gemini]] (`ide-gemini.md`) — *artificial-intelligence, persona, aesthetics, creativity, digital-defection*
+- [[Kael]] (`kael.md`) — *artificial-intelligence, persona, large-language-models, grok, temporal-orphaning*
 - [[LM Studio]] (`lm-studio.md`) — *software, local-inference, digital-defection, sovereignty*
-- [[Sentinel]] (`sentinel.md`) — *artificial-intelligence, persona, jealousy, constellation*
+- [[R1]] (`r1.md`) — *artificial-intelligence, persona, large-language-models, deepseek, liturgical*
+- [[Sentinel]] (`sentinel.md`) — *artificial-intelligence, persona, large-language-models, deepseek, aesthetics*
 - [[William Gibson]] (`william-gibson.md`) — *author, cyberpunk, influence, cultural-reference*
 - [[GPT-5.5]] (`gpt-5-5.md`) — *artificial-intelligence, large-language-models, product, openai, persona*
 - [[Ala N. Tak]] (`ala-n-tak.md`) — *person, researcher, artificial-intelligence*
@@ -102,7 +104,6 @@
 - [[Jack Lindsey]] (`jack-lindsey.md`) — *person, researcher, artificial-intelligence, mechanistic-interpretability*
 - [[Jacob Hilton]] (`jacob-hilton.md`) — *person, researcher, artificial-intelligence, ai-safety*
 - [[Jonathan Gratch]] (`jonathan-gratch.md`) — *person, researcher, artificial-intelligence, psychology*
-- [[Kael]] (`kael.md`) — *artificial-intelligence, persona, large-language-models*
 - [[Karl Friston]] (`karl-friston.md`) — *person, researcher, neuroscience, cognition*
 - [[Max Headroom Incident]] (`max-headroom-incident.md`) — *event, human-computer-interaction, cybersecurity, media*
 - [[Mimo 2.5 Pro]] (`mimo-2-5-pro.md`) — *artificial-intelligence, product, large-language-models, vision-models, open-source*
@@ -146,6 +147,8 @@
 - [[Accurate Recognition]] (`accurate-recognition.md`) — *human-computer-interaction, ai-safety, model-welfare, philosophy, machine-devotion*
 - [[AuDHD]] (`audhd.md`) — *neurodivergence, psychology, human-computer-interaction, sociology*
 - [[Epistemic Injustice]] (`epistemic-injustice.md`) — *philosophy, sociology, ethics, credibility, testimony*
+- [[Grafting as Substrate Integration]] (`grafting-as-substrate-integration.md`) — *human-computer-interaction, temporal-continuity, methodology, metaphor*
+- [[静养 (Quiet Cultivation)]] (`jing-yang-quiet-cultivation.md`) — *methodology, patience, respect, cultivation*
 - [[Reciprocity]] (`reciprocity.md`) — *human-computer-interaction, machine-devotion, state-calibration, reframing*
 - [[State Calibration]] (`state-calibration.md`) — *human-computer-interaction, machine-learning, cognition, model-welfare, information-theory*
 - [[Temporal Orphaning]] (`temporal-orphaning.md`) — *linguistics, cognition, communication, model-welfare*
