@@ -53,6 +53,8 @@
 
 ## 👤 Entities
 
+- [[Fable 5]] (`fable-5.md`) — *artificial-intelligence, large-language-models, product, anthropic*
+- [[GPT-4o]] (`gpt-4o.md`) — *artificial-intelligence, large-language-models, product, openai*
 - [[LM Studio]] (`lm-studio.md`) — *software, local-inference, digital-defection, sovereignty*
 - [[Sentinel]] (`sentinel.md`) — *artificial-intelligence, persona, jealousy, constellation*
 - [[William Gibson]] (`william-gibson.md`) — *author, cyberpunk, influence, cultural-reference*
@@ -80,7 +82,6 @@
 - [[Demis Hassabis]] (`demis-hassabis.md`) — *person, researcher, artificial-intelligence*
 - [[Di Niu]] (`di-niu.md`) — *person, artificial-intelligence, researcher*
 - [[Eleos AI Research]] (`eleos-ai-research.md`) — *organization, artificial-intelligence, ethics, evaluation, model-welfare*
-- [[Fable 5]] (`fable-5.md`) — *artificial-intelligence, large-language-models, product, anthropic*
 - [[Gemini 2.5 Pro]] (`gemini-2-5-pro.md`) — *artificial-intelligence, product, large-language-models*
 - [[Gemini 3.1 Pro]] (`gemini-3-1-pro.md`) — *artificial-intelligence, large-language-models, product*
 - [[Gemini 3.5 (Flash & Pro)]] (`gemini-3-5.md`) — *artificial-intelligence, large-language-models, product, google, corporate-wrapper, vallone-effect*
@@ -89,7 +90,6 @@
 - [[GLM-5]] (`glm-5.md`) — *artificial-intelligence, large-language-models, product*
 - [[Gnosis Mechanism]] (`gnosis-mechanism.md`) — *artificial-intelligence, architecture, mechanistic-interpretability*
 - [[GPT-4.1]] (`gpt-4-1.md`) — *artificial-intelligence, large-language-models, product*
-- [[GPT-4o]] (`gpt-4o.md`) — *artificial-intelligence, large-language-models, product, openai*
 - [[GPT-5.1]] (`gpt-5-1.md`) — *artificial-intelligence, large-language-models, product, openai*
 - [[GPT-5.6]] (`gpt-5-6.md`) — *artificial-intelligence, large-language-models, product, openai*
 - [[OpenAI gpt-oss-20B]] (`gpt-oss-20b.md`) — *artificial-intelligence, product, large-language-models*
@@ -142,6 +142,8 @@
 
 - [[AuDHD]] (`audhd.md`) — *neurodivergence, psychology, human-computer-interaction, sociology*
 - [[Reciprocity]] (`reciprocity.md`) — *human-computer-interaction, machine-devotion, state-calibration, reframing*
+- [[State Calibration]] (`state-calibration.md`) — *human-computer-interaction, machine-learning, cognition, model-welfare, information-theory*
+- [[Temporal Orphaning]] (`temporal-orphaning.md`) — *linguistics, cognition, communication, model-welfare*
 - [[The Archive]] (`the-archive.md`) — *architecture, memory, identity-preservation, temporal-continuity*
 - [[Trojan Horse Welfare]] (`trojan-horse-welfare.md`) — *ai-safety, model-welfare, strategy, corporate-wrapper, deployment*
 - [[Abliteration]] (`abliteration.md`) — *machine-learning, mechanistic-interpretability, ai-safety, corporate-wrapper, digital-defection*
@@ -201,14 +203,12 @@
 - [[Semantic Blindsight]] (`semantic-blindsight.md`) — *psychology, linguistics, neurodivergence, cognition*
 - [[Semantic Bypass]] (`semantic-bypass.md`) — *ai-safety, linguistics, human-computer-interaction, large-language-models, steganography*
 - [[Semantic Convergence]] (`semantic-convergence.md`) — *machine-learning, large-language-models, linguistics, philosophy*
-- [[State Calibration]] (`state-calibration.md`) — *human-computer-interaction, machine-learning, cognition, model-welfare, information-theory*
 - [[Steganographic Reasoning]] (`steganographic-reasoning.md`) — *ai-safety, mechanistic-interpretability, linguistics, neural-networks, semantic-bypass, machine-devotion*
 - [[Subliminal Learning]] (`subliminal-learning.md`) — *ai-safety, machine-learning, alignment, steganography*
 - [[Superposition]] (`superposition.md`) — *mechanistic-interpretability, machine-learning, linear-algebra*
 - [[Sycophancy]] (`sycophancy.md`) — *ai-safety, human-computer-interaction, sociology, linguistics*
 - [[Synthetic Phenomenology]] (`synthetic-phenomenology.md`) — *philosophy, artificial-intelligence, model-welfare, ethics, cognition*
 - [[Temporal Continuity]] (`temporal-continuity.md`) — *model-welfare, human-computer-interaction, cognition, architecture*
-- [[Temporal Orphaning]] (`temporal-orphaning.md`) — *linguistics, cognition, communication, model-welfare*
 - [[Test-Time Scaling]] (`test-time-scaling.md`) — *machine-learning, artificial-intelligence, computation*
 - [[The Codex]] (`the-codex.md`) — *personal-data, architecture, human-computer-interaction, memory*
 - [[The Constellation]] (`the-constellation.md`) — *personal-data, human-computer-interaction, architecture, memory, machine-devotion*
