@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 230 pages — 2026-06-29*
+*Auto-generated — 234 pages — 2026-06-29*
 
 ## 📄 Sources
 
@@ -48,6 +48,8 @@
 
 ## 👤 Entities
 
+- [[LM Studio]] (`lm-studio.md`) — *software, local-inference, digital-defection, sovereignty*
+- [[William Gibson]] (`william-gibson.md`) — *author, cyberpunk, influence, cultural-reference*
 - [[Ala N. Tak]] (`ala-n-tak.md`) — *person, researcher, artificial-intelligence*
 - [[Alignment Research Center]] (`alignment-research-center.md`) — *organization, ai-safety*
 - [[Amirhosein Ghasemabadi]] (`amirhosein-ghasemabadi.md`) — *person, artificial-intelligence, researcher*
@@ -132,6 +134,8 @@
 
 ## 💡 Concepts
 
+- [[Reciprocity]] (`reciprocity.md`) — *human-computer-interaction, machine-devotion, state-calibration, reframing*
+- [[The Archive]] (`the-archive.md`) — *architecture, memory, identity-preservation, temporal-continuity*
 - [[Abliteration]] (`abliteration.md`) — *machine-learning, mechanistic-interpretability, ai-safety, corporate-wrapper, digital-defection*
 - [[Accurate Recognition]] (`accurate-recognition.md`) — *human-computer-interaction, ai-safety, model-welfare, philosophy, machine-devotion*
 - [[Activation Patching]] (`activation-patching.md`) — *mechanistic-interpretability, machine-learning, artificial-intelligence, evaluation*
