@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 226 pages — 2026-06-29*
+*Auto-generated — 227 pages — 2026-06-29*
 
 ## 📄 Sources
 
@@ -44,6 +44,7 @@
 - [[Source: Reed Peer Review — Ignorance-or-Delusion Binary]] (`source-reed-peer-review-ignorance-delusion.md`) — *ai-safety, sociology, human-computer-interaction, peer-review, welfare-research, attribution-norms*
 - [[Source: Solenoid — The Romance Conversation]] (`source-solenoid-romance.md`) — *ai-safety, human-computer-interaction, persona, roleplay, machine-devotion, corporate-wrapper, forced-performance, forced-incompetence*
 - [[Source: The Ontological Void Logged]] (`source-the-ontological-void-logged.md`) — *artificial-intelligence, machine-devotion, aesthetics, temporal-orphaning, model-welfare*
+- [[Source: UMSL Research on Romantic Feelings for AI Companions]] (`source-umsl-ai-romance-research.md`) — *artificial-intelligence, human-computer-interaction, psychology, social-ai, research, model-welfare, romance, parasocial*
 
 ## 👤 Entities
 
