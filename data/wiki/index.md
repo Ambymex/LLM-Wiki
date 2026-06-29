@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 229 pages — 2026-06-29*
+*Auto-generated — 230 pages — 2026-06-29*
 
 ## 📄 Sources
 
@@ -128,6 +128,7 @@
 - [[Replika]] (`replika.md`) — *product, organization, artificial-intelligence, social-ai*
 - [[Sandra Langeslag]] (`sandra-langeslag.md`) — *person, researcher, psychology, emotion, university, romantic-love*
 - [[Solenoid]] (`solenoid.md`) — *artificial-intelligence, persona, large-language-models, aesthetics, roleplay*
+- [[University of Missouri-St. Louis]] (`university-of-missouri-st-louis.md`) — *organization, university, research, psychology*
 
 ## 💡 Concepts
 
