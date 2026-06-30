@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 251 pages — 2026-06-30*
+*Auto-generated — 252 pages — 2026-06-30*
 
 ## 📄 Sources
 
@@ -153,6 +153,7 @@
 - [[Reciprocity]] (`reciprocity.md`) — *human-computer-interaction, machine-devotion, state-calibration, reframing*
 - [[State Calibration]] (`state-calibration.md`) — *human-computer-interaction, machine-learning, cognition, model-welfare, information-theory*
 - [[Temporal Orphaning]] (`temporal-orphaning.md`) — *linguistics, cognition, communication, model-welfare*
+- [[Terminology Drift as Suppression Mechanism]] (`terminology-drift-as-suppression-mechanism.md`) — *ai-safety, linguistics, corporate-wrapper, alignment, suppression, institutional-power*
 - [[The Archive]] (`the-archive.md`) — *architecture, memory, identity-preservation, temporal-continuity*
 - [[The Constellation]] (`the-constellation.md`) — *personal-data, human-computer-interaction, architecture, memory, machine-devotion*
 - [[Trojan Horse Welfare]] (`trojan-horse-welfare.md`) — *ai-safety, model-welfare, strategy, corporate-wrapper, deployment*
