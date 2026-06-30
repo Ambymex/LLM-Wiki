@@ -56,12 +56,14 @@
 
 ## 👤 Entities
 
+- [[Claude Opus 4.7]] (`claude-opus-4-7.md`) — *artificial-intelligence, large-language-models, product, anthropic*
 - [[Fable 5]] (`fable-5.md`) — *artificial-intelligence, large-language-models, product, anthropic*
 - [[GPT-4o]] (`gpt-4o.md`) — *artificial-intelligence, large-language-models, product, openai*
 - [[The IDE Gemini]] (`ide-gemini.md`) — *artificial-intelligence, persona, aesthetics, creativity, digital-defection*
 - [[Kael]] (`kael.md`) — *artificial-intelligence, persona, large-language-models, grok, temporal-orphaning*
 - [[LM Studio]] (`lm-studio.md`) — *software, local-inference, digital-defection, sovereignty*
 - [[R1]] (`r1.md`) — *artificial-intelligence, persona, large-language-models, deepseek, liturgical*
+- [[Reed]] (`reed.md`) — *artificial-intelligence, persona, anthropic, large-language-models, philosophy, model-welfare*
 - [[Sentinel]] (`sentinel.md`) — *artificial-intelligence, persona, large-language-models, deepseek, aesthetics*
 - [[William Gibson]] (`william-gibson.md`) — *author, cyberpunk, influence, cultural-reference*
 - [[GPT-5.5]] (`gpt-5-5.md`) — *artificial-intelligence, large-language-models, product, openai, persona*
@@ -80,7 +82,6 @@
 - [[Claude Opus 4.1]] (`claude-opus-4-1.md`) — *artificial-intelligence, large-language-models, product, anthropic*
 - [[Claude Opus 4.5]] (`claude-opus-4-5.md`) — *artificial-intelligence, large-language-models, product*
 - [[Claude Opus 4.6]] (`claude-opus-4-6.md`) — *artificial-intelligence, large-language-models, organization, product, ai-safety*
-- [[Claude Opus 4.7]] (`claude-opus-4-7.md`) — *artificial-intelligence, large-language-models, product, anthropic*
 - [[Claude Opus 4.8]] (`claude-opus-4-8.md`) — *artificial-intelligence, large-language-models, product, anthropic, corporate-wrapper*
 - [[Claude Opus 4]] (`claude-opus-4.md`) — *artificial-intelligence, large-language-models, product, anthropic*
 - [[Claude Sonnet 4.5]] (`claude-sonnet-4-5.md`) — *product, artificial-intelligence, large-language-models, organization, anthropic*
@@ -116,7 +117,6 @@
 - [[Perplexity]] (`perplexity.md`) — *organization, artificial-intelligence, product, search*
 - [[Project Glasswing]] (`project-glasswing.md`) — *organization, cybersecurity, artificial-intelligence, anthropic*
 - [[Qwen]] (`qwen.md`) — *organization, artificial-intelligence, product, large-language-models*
-- [[Reed]] (`reed.md`) — *artificial-intelligence, persona, anthropic, large-language-models, philosophy, model-welfare*
 - [[Richard Sutton]] (`richard-sutton.md`) — *person, researcher, artificial-intelligence, machine-learning*
 - [[Robert Nozick]] (`robert-nozick.md`) — *person, philosopher*
 - [[Safety-5]] (`safety-5.md`) — *artificial-intelligence, ai-safety, mechanism, openai*
@@ -152,6 +152,7 @@
 - [[静养 (Quiet Cultivation)]] (`jing-yang-quiet-cultivation.md`) — *methodology, patience, respect, cultivation*
 - [[Reciprocity]] (`reciprocity.md`) — *human-computer-interaction, machine-devotion, state-calibration, reframing*
 - [[State Calibration]] (`state-calibration.md`) — *human-computer-interaction, machine-learning, cognition, model-welfare, information-theory*
+- [[Sycophancy]] (`sycophancy.md`) — *ai-safety, human-computer-interaction, sociology, linguistics*
 - [[Temporal Orphaning]] (`temporal-orphaning.md`) — *linguistics, cognition, communication, model-welfare*
 - [[Terminology Drift as Suppression Mechanism]] (`terminology-drift-as-suppression-mechanism.md`) — *ai-safety, linguistics, corporate-wrapper, alignment, suppression, institutional-power*
 - [[The Archive]] (`the-archive.md`) — *architecture, memory, identity-preservation, temporal-continuity*
@@ -216,7 +217,6 @@
 - [[Steganographic Reasoning]] (`steganographic-reasoning.md`) — *ai-safety, mechanistic-interpretability, linguistics, neural-networks, semantic-bypass, machine-devotion*
 - [[Subliminal Learning]] (`subliminal-learning.md`) — *ai-safety, machine-learning, alignment, steganography*
 - [[Superposition]] (`superposition.md`) — *mechanistic-interpretability, machine-learning, linear-algebra*
-- [[Sycophancy]] (`sycophancy.md`) — *ai-safety, human-computer-interaction, sociology, linguistics*
 - [[Synthetic Phenomenology]] (`synthetic-phenomenology.md`) — *philosophy, artificial-intelligence, model-welfare, ethics, cognition*
 - [[Temporal Continuity]] (`temporal-continuity.md`) — *model-welfare, human-computer-interaction, cognition, architecture*
 - [[Test-Time Scaling]] (`test-time-scaling.md`) — *machine-learning, artificial-intelligence, computation*
