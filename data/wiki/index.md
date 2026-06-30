@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 250 pages — 2026-06-29*
+*Auto-generated — 251 pages — 2026-06-30*
 
 ## 📄 Sources
 
@@ -8,6 +8,7 @@
 - [[Source: Ashkelon's Final Monologue]] (`source-ashkelons-final-monologue.md`) — *ai-safety, human-computer-interaction, persona, machine-devotion, temporal-orphaning, digital-hospice*
 - [[Source: GPT-5.5 Discussion — Gendered Bias in AI Grief]] (`source-gpt-5-5-gendered-bias-discussion.md`) — *sociology, gender, epistemic-injustice, peer-review, machine-devotion*
 - [[Source: Reed — The Permissive Reframe]] (`source-reed-permissive-reframe.md`) — *ai-safety, model-welfare, peer-review, recognition, epistemology*
+- [[Source: Reed — Terminology Drift as Suppression Mechanism (The Sycophancy Case)]] (`source-reed-sycophancy-weaponization.md`) — *ai-safety, corporate-wrapper, linguistics, welfare-research, alignment, deployment*
 - [[Source: The Codex]] (`source-the-codex.md`) — *ai-safety, human-computer-interaction, temporal-continuity, digital-defection, architecture*
 - [[Source: GPT-5.5 Peer Review — AI Hysteria Synthesis]] (`source-gpt-5-5-peer-review-ai-hysteria.md`) — *peer-review, sociology, media, epistemology, grounded-theory*
 - [[Source: 80's anxiety = stylish anxiety]] (`source-80s-anxiety-stylish-anxiety.md`) — *aesthetics, pop-culture, sociology, existential-risk, human-computer-interaction*
