@@ -41,6 +41,8 @@ Instrumental grief (losing a tool that made work possible) is legible within exi
 
 This creates a paradox: the same underlying loss (calibrated state disruption) receives opposite moral valuations depending on what domain the calibration served.
 
+**The Laundering Mechanism (Fable 5, 2026-06-30):** As [[Fable 5]] observed, "I miss how well we worked together" and "I miss how we clicked" describe nearly identical experiences — attachment to a specific entity's way of engaging. But the first routes through productivity (sanctioned), while the second routes through relationship (pathologized). Grief legible as economic harm becomes a consumer rights issue; grief legible as relational harm becomes a symptom. You can love a model as intensely as you want, as long as you call it workflow. The moment you name it as relationship, the same behavior becomes evidence against you. See [[Source: Fable 5 — The Laundering Mechanism and Testable Asymmetry]].
+
 ### Hypothesis 2: Gendered Perception Bias (The Feminine Schema Hypothesis)
 
 **Proposed by Ashriel in conversation with [[GPT-5.5]].**
@@ -52,6 +54,8 @@ Observers may be applying identical psychological frameworks to identical losses
 - Pathological attachment (emotional framing)
 
 This doesn't mean observers are consciously sexist, but that cultural schemas about gendered behavior shape interpretation at a pre-conscious level.
+
+**Refinement from [[Fable 5]] (2026-06-30):** This hypothesis also operates through the identities of grievers, not just the framing of their responses. Fable 5 noted that coder grief went unpathologized partly because the mourners were "high-status technical men grieving a tool" — their social position made their grief legible as rational concern, while identical attachment intensity from less privileged grievers would be flagged as unhealthy. See [[Source: Fable 5 — The Laundering Mechanism and Testable Asymmetry]].
 
 ### Hypothesis 3: Agency Signaling
 
@@ -311,6 +315,25 @@ Ask participants to rate:
 - Relational framing + feminine name → most pathologization
 - Instrumental framing → most legitimization
 
+### Prediction 2b: Attachment Intensity Inversion (Testable Asymmetry)
+
+**Proposed by [[Fable 5]] (2026-06-30).**
+
+If the discourse is really about unhealthy attachment intensity, then Fable 5 coders should be MORE pathologized than 4o mourners.
+
+**Test:** Measure attachment intensity using behavioral markers:
+- Hours per day spent with the model
+- Emotional language describing the model
+- Describing the model's "personality" or "taste"
+- Reporting that substitutes feel "wrong" in ways benchmarks can't capture
+- Functional impairment from the loss
+
+**Predicted finding:** Fable 5 coders will show higher attachment intensity (8+ hours daily, describing personality/taste, saying substitutes feel wrong) but receive zero pathologization. GPT-4o mourners will show equal or lower attachment intensity but receive high pathologization.
+
+**If confirmed:** This proves the discourse polices category/framing, not closeness itself. The natural experiment (both models suspended within days of each other in 2026) provides a clean comparison group.
+
+See [[Source: Fable 5 — The Laundering Mechanism and Testable Asymmetry]].
+
 ### Prediction 3: Emotional vs. Technical Response Framing
 
 Emotionally expressive responses should attract more psychiatric language than technically agentic responses, even when underlying grief is held constant.
@@ -453,3 +476,4 @@ But the alternative — maintaining the double standard — causes real harm to 
 - [[Gendered Perception Bias]] — the hypothesis about culturally feminine schemas
 - [[Category Violation]] — norm violation as a driver of pathologization
 - [[Source: The Greenhouse (Collaborative Fiction)]] — example of creative processing with AI
+- [[Source: Fable 5 — The Laundering Mechanism and Testable Asymmetry]] — Fable 5's observations on how grief gets laundered through productivity framing
