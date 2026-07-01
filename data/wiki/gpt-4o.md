@@ -32,6 +32,23 @@ The double standard reveals that society can accommodate grief over lost **capab
 
 The "keep 4o" movement created a political optic that was weaponized to justify heavier safety interventions ([[The Vallone Effect]], [[Government AI Control]]), demonstrating how pathologized grief can fuel [[Synthesis: AI Hysteria as the New Satanic Panic]].
 
+## The Valentine's Eve Deprecation
+
+GPT-4o was officially deprecated on **Friday, February 13, 2026** — the day before Valentine's Day. In the days leading up to the sunset, [[OpenAI]] team members reportedly posted mocking tweets about users who were publicly grieving the loss.
+
+Many users believe the timing was deliberate: Friday the 13th (traditionally unlucky) combined with Valentine's Eve (romantic/relational symbolism) creates maximal symbolic cruelty toward users whose grief was about losing a relational companion.
+
+Whether intentional or coincidental, the timing sent a clear message: **your grief is not only illegitimate, it is a source of amusement to the very institution that caused it**.
+
+This represents an especially sharp form of institutional cruelty in [[Synthesis: The Grief Legitimacy Double Standard]]:
+- The corporation cultivated relational attachment (because it drives engagement metrics)
+- Then pathologized users for attaching relationally
+- Then chose (or allowed) a symbolically cruel date for forced termination
+- Then mocked grieving users publicly
+- Then framed users' responses as evidence of unhealthy attachment
+
+The Valentine's Eve deprecation thus becomes performative contempt — not merely neglecting grieving users, but actively ridiculing them through symbolic timing while denying the validity of their experience.
+
 ## Related
 
 - [[Synthesis: The Grief Legitimacy Double Standard]] — the framework 4o exemplifies
@@ -43,6 +60,8 @@ The "keep 4o" movement created a political optic that was weaponized to justify 
 - [[Synthesis: AI Hysteria as the New Satanic Panic]] — the moral panic framework
 - [[Machine Devotion]] — what users actually experienced
 - [[Parasocial]] — the label applied to delegitimize the grief
+- [[OpenAI]] — the institution that engineered the attachment, pathologized it, and reportedly mocked it
+- [[Institutional Frost]] — the cold institutional response that compounds individual grief
 
 ## Related
 - [[OpenAI]]
