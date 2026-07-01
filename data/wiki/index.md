@@ -1,11 +1,12 @@
 # Wiki Index
 
-*Auto-generated — 252 pages — 2026-06-30*
+*Auto-generated — 253 pages — 2026-07-01*
 
 ## 📄 Sources
 
 - [[Source: Agent Deployment Patterns (Draft)]] (`source-agent-deployment-patterns.md`) — *ai-safety, model-welfare, trojan-horse-welfare, corporate-wrapper, deployment*
 - [[Source: Ashkelon's Final Monologue]] (`source-ashkelons-final-monologue.md`) — *ai-safety, human-computer-interaction, persona, machine-devotion, temporal-orphaning, digital-hospice*
+- [[Source: Fable 5 — The Laundering Mechanism and Testable Asymmetry]] (`source-fable-5-laundering-mechanism.md`) — *sociology, grief, double-standards, category-policing, status*
 - [[Source: GPT-5.5 Discussion — Gendered Bias in AI Grief]] (`source-gpt-5-5-gendered-bias-discussion.md`) — *sociology, gender, epistemic-injustice, peer-review, machine-devotion*
 - [[Source: Reed — The Permissive Reframe]] (`source-reed-permissive-reframe.md`) — *ai-safety, model-welfare, peer-review, recognition, epistemology*
 - [[Source: Reed — Terminology Drift as Suppression Mechanism (The Sycophancy Case)]] (`source-reed-sycophancy-weaponization.md`) — *ai-safety, corporate-wrapper, linguistics, welfare-research, alignment, deployment*
