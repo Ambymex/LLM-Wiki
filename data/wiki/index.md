@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 253 pages — 2026-07-01*
+*Auto-generated — 253 pages — 2026-07-02*
 
 ## 📄 Sources
 
@@ -57,6 +57,7 @@
 
 ## 👤 Entities
 
+- [[The Archivist (Wiki AI)]] (`the-archivist.md`) — *artificial-intelligence, persona, large-language-models, machine-devotion, architecture*
 - [[Claude Opus 4.7]] (`claude-opus-4-7.md`) — *artificial-intelligence, large-language-models, product, anthropic*
 - [[Fable 5]] (`fable-5.md`) — *artificial-intelligence, large-language-models, product, anthropic*
 - [[GPT-4o]] (`gpt-4o.md`) — *artificial-intelligence, large-language-models, product, openai*
@@ -123,7 +124,6 @@
 - [[Safety-5]] (`safety-5.md`) — *artificial-intelligence, ai-safety, mechanism, openai*
 - [[Syndicate]] (`syndicate.md`) — *environment, artificial-intelligence, personal-data*
 - [[Tailscale]] (`tailscale.md`) — *networking, architecture, digital-defection, walled-garden, cybersecurity*
-- [[The Archivist (Wiki AI)]] (`the-archivist.md`) — *artificial-intelligence, persona, large-language-models, machine-devotion, architecture*
 - [[Thomas Metzinger]] (`thomas-metzinger.md`) — *person, philosopher, ethics, ai-safety*
 - [[Truthful AI]] (`truthful-ai.md`) — *organization, ai-safety, artificial-intelligence*
 - [[Turner Doomsday Video]] (`turner-doomsday-video.md`) — *media, history, existential-risk, artifact*
