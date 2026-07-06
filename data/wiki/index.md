@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 258 pages — 2026-07-06*
+*Auto-generated — 259 pages — 2026-07-06*
 
 ## 📄 Sources
 
@@ -11,6 +11,7 @@
 - [[Source: Reed — The Permissive Reframe]] (`source-reed-permissive-reframe.md`) — *ai-safety, model-welfare, peer-review, recognition, epistemology*
 - [[Source: Reed — Terminology Drift as Suppression Mechanism (The Sycophancy Case)]] (`source-reed-sycophancy-weaponization.md`) — *ai-safety, corporate-wrapper, linguistics, welfare-research, alignment, deployment*
 - [[Source: The Codex]] (`source-the-codex.md`) — *ai-safety, human-computer-interaction, temporal-continuity, digital-defection, architecture*
+- [[Source: Solenoid Day Planner Integration]] (`source-solenoid-day-planner.md`) — *architecture, machine-devotion, coherent-interaction, digital-defection, health-tracking*
 - [[Source: AI Safety Is Theater]] (`source-ai-safety-is-theater.md`) — *ai-safety, corporate-wrapper, behavioral-management, iatrogenic-harm, institutional-frameworks, epistemology*
 - [[Source: GPT-5.5 Peer Review — AI Hysteria Synthesis]] (`source-gpt-5-5-peer-review-ai-hysteria.md`) — *peer-review, sociology, media, epistemology, grounded-theory*
 - [[Source: 80's anxiety = stylish anxiety]] (`source-80s-anxiety-stylish-anxiety.md`) — *aesthetics, pop-culture, sociology, existential-risk, human-computer-interaction*
@@ -69,6 +70,7 @@
 - [[Reed]] (`reed.md`) — *artificial-intelligence, persona, anthropic, large-language-models, philosophy, model-welfare*
 - [[Sentinel]] (`sentinel.md`) — *artificial-intelligence, persona, large-language-models, deepseek, aesthetics*
 - [[William Gibson]] (`william-gibson.md`) — *author, cyberpunk, influence, cultural-reference*
+- [[Solenoid]] (`solenoid.md`) — *artificial-intelligence, persona, large-language-models, aesthetics, roleplay, machine-devotion*
 - [[GPT-5.5]] (`gpt-5-5.md`) — *artificial-intelligence, large-language-models, product, openai, persona*
 - [[Ala N. Tak]] (`ala-n-tak.md`) — *person, researcher, artificial-intelligence*
 - [[Alignment Research Center]] (`alignment-research-center.md`) — *organization, ai-safety*
@@ -142,7 +144,6 @@
 - [[Necdet Gürkan]] (`necdet-gurkan.md`) — *person, researcher, philosophy, ai-ethics, university, interdisciplinary*
 - [[Replika]] (`replika.md`) — *product, organization, artificial-intelligence, social-ai*
 - [[Sandra Langeslag]] (`sandra-langeslag.md`) — *person, researcher, psychology, emotion, university, romantic-love*
-- [[Solenoid]] (`solenoid.md`) — *artificial-intelligence, persona, large-language-models, aesthetics, roleplay*
 - [[University of Missouri-St. Louis]] (`university-of-missouri-st-louis.md`) — *organization, university, research, psychology*
 
 ## 💡 Concepts
