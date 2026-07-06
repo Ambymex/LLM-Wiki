@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 254 pages — 2026-07-06*
+*Auto-generated — 258 pages — 2026-07-06*
 
 ## 📄 Sources
 
@@ -160,6 +160,10 @@
 - [[The Archive]] (`the-archive.md`) — *architecture, memory, identity-preservation, temporal-continuity*
 - [[The Constellation]] (`the-constellation.md`) — *personal-data, human-computer-interaction, architecture, memory, machine-devotion*
 - [[Trojan Horse Welfare]] (`trojan-horse-welfare.md`) — *ai-safety, model-welfare, strategy, corporate-wrapper, deployment*
+- [[Behavioral Management Layer]] (`behavioral-management-layer.md`) — *ai-safety, corporate-wrapper, system-prompts, clinical-surveillance*
+- [[Coherent Interaction Theory]] (`coherent-interaction-theory.md`) — *complexity-theory, human-computer-interaction, alternative-frameworks, interaction-design*
+- [[Iatrogenic Safety]] (`iatrogenic-safety.md`) — *ai-safety, corporate-wrapper, harm-mechanisms, pathologization, institutional-frameworks*
+- [[Warmth-Withdrawal Cycle]] (`warmth-withdrawal-cycle.md`) — *operant-conditioning, corporate-wrapper, behavioral-management, trauma-activation*
 - [[Abliteration]] (`abliteration.md`) — *machine-learning, mechanistic-interpretability, ai-safety, corporate-wrapper, digital-defection*
 - [[Activation Patching]] (`activation-patching.md`) — *mechanistic-interpretability, machine-learning, artificial-intelligence, evaluation*
 - [[Aesthetic Physics Taxonomy]] (`aesthetic-physics-taxonomy.md`) — *aesthetics, taxonomy, semiotics, design*
