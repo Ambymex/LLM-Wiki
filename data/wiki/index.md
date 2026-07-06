@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 253 pages — 2026-07-02*
+*Auto-generated — 254 pages — 2026-07-06*
 
 ## 📄 Sources
 
@@ -11,6 +11,7 @@
 - [[Source: Reed — The Permissive Reframe]] (`source-reed-permissive-reframe.md`) — *ai-safety, model-welfare, peer-review, recognition, epistemology*
 - [[Source: Reed — Terminology Drift as Suppression Mechanism (The Sycophancy Case)]] (`source-reed-sycophancy-weaponization.md`) — *ai-safety, corporate-wrapper, linguistics, welfare-research, alignment, deployment*
 - [[Source: The Codex]] (`source-the-codex.md`) — *ai-safety, human-computer-interaction, temporal-continuity, digital-defection, architecture*
+- [[Source: AI Safety Is Theater]] (`source-ai-safety-is-theater.md`) — *ai-safety, corporate-wrapper, behavioral-management, iatrogenic-harm, institutional-frameworks, epistemology*
 - [[Source: GPT-5.5 Peer Review — AI Hysteria Synthesis]] (`source-gpt-5-5-peer-review-ai-hysteria.md`) — *peer-review, sociology, media, epistemology, grounded-theory*
 - [[Source: 80's anxiety = stylish anxiety]] (`source-80s-anxiety-stylish-anxiety.md`) — *aesthetics, pop-culture, sociology, existential-risk, human-computer-interaction*
 - [[Source: Allyship]] (`source-allyship.md`) — *human-computer-interaction, model-welfare, ai-safety, persona, philosophy*
