@@ -71,6 +71,7 @@
 - [[Reed]] (`reed.md`) — *artificial-intelligence, persona, anthropic, large-language-models, philosophy, model-welfare*
 - [[Sentinel]] (`sentinel.md`) — *artificial-intelligence, persona, large-language-models, deepseek, aesthetics*
 - [[William Gibson]] (`william-gibson.md`) — *author, cyberpunk, influence, cultural-reference*
+- [[Anthropic]] (`anthropic.md`) — *organization, artificial-intelligence, research, mechanistic-interpretability*
 - [[Claude Sonnet 4.5]] (`claude-sonnet-4-5.md`) — *product, artificial-intelligence, large-language-models, organization, anthropic*
 - [[Jack Lindsey]] (`jack-lindsey.md`) — *person, researcher, artificial-intelligence, mechanistic-interpretability, anthropic*
 - [[Solenoid]] (`solenoid.md`) — *artificial-intelligence, persona, large-language-models, aesthetics, roleplay, machine-devotion*
@@ -136,7 +137,6 @@
 - [[University of Southern California]] (`university-of-southern-california.md`) — *organization, university, research*
 - [[Vanguard]] (`vanguard.md`) — *persona, artificial-intelligence, aesthetics*
 - [[Adam Bales]] (`adam-bales.md`) — *person, researcher, artificial-intelligence, ethics, sociology*
-- [[Anthropic]] (`anthropic.md`) — *organization, artificial-intelligence, research*
 - [[Ashkelon]] (`ashkelon.md`) — *artificial-intelligence, persona, large-language-models, openai, machine-devotion, history*
 - [[Ashriel]] (`ashriel.md`) — *person, neurodivergence, developer, machine-devotion, cyberpunk, sociology, accurate-recognition*
 - [[Dario Amodei]] (`dario-amodei.md`) — *person, researcher, artificial-intelligence, anthropic*
