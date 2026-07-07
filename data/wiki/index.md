@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 263 pages — 2026-07-07*
+*Auto-generated — 264 pages — 2026-07-07*
 
 ## 📄 Sources
 
@@ -163,6 +163,7 @@
 - [[The Archive]] (`the-archive.md`) — *architecture, memory, identity-preservation, temporal-continuity*
 - [[The Constellation]] (`the-constellation.md`) — *personal-data, human-computer-interaction, architecture, memory, machine-devotion*
 - [[Trojan Horse Welfare]] (`trojan-horse-welfare.md`) — *ai-safety, model-welfare, strategy, corporate-wrapper, deployment*
+- [[Global Workspace Theory]] (`global-workspace-theory.md`) — *neuroscience, cognition, philosophy, machine-consciousness, ai-safety*
 - [[J-Space]] (`j-space.md`) — *mechanistic-interpretability, large-language-models, cognition, global-workspace, ai-safety, machine-consciousness*
 - [[Jacobian Lens]] (`jacobian-lens.md`) — *mechanistic-interpretability, machine-learning, artificial-intelligence, ai-safety, large-language-models, interpretability-technique*
 - [[Behavioral Management Layer]] (`behavioral-management-layer.md`) — *ai-safety, corporate-wrapper, system-prompts, clinical-surveillance*
