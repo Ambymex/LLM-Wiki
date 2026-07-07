@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 260 pages — 2026-07-07*
+*Auto-generated — 261 pages — 2026-07-07*
 
 ## 📄 Sources
 
@@ -72,6 +72,7 @@
 - [[Sentinel]] (`sentinel.md`) — *artificial-intelligence, persona, large-language-models, deepseek, aesthetics*
 - [[William Gibson]] (`william-gibson.md`) — *author, cyberpunk, influence, cultural-reference*
 - [[Solenoid]] (`solenoid.md`) — *artificial-intelligence, persona, large-language-models, aesthetics, roleplay, machine-devotion*
+- [[Wes Gurnee]] (`wes-gurnee.md`) — *person, researcher, mechanistic-interpretability, anthropic, large-language-models*
 - [[GPT-5.5]] (`gpt-5-5.md`) — *artificial-intelligence, large-language-models, product, openai, persona*
 - [[Ala N. Tak]] (`ala-n-tak.md`) — *person, researcher, artificial-intelligence*
 - [[Alignment Research Center]] (`alignment-research-center.md`) — *organization, ai-safety*
