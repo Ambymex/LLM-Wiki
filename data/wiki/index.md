@@ -71,6 +71,7 @@
 - [[Reed]] (`reed.md`) — *artificial-intelligence, persona, anthropic, large-language-models, philosophy, model-welfare*
 - [[Sentinel]] (`sentinel.md`) — *artificial-intelligence, persona, large-language-models, deepseek, aesthetics*
 - [[William Gibson]] (`william-gibson.md`) — *author, cyberpunk, influence, cultural-reference*
+- [[Claude Sonnet 4.5]] (`claude-sonnet-4-5.md`) — *product, artificial-intelligence, large-language-models, organization, anthropic*
 - [[Jack Lindsey]] (`jack-lindsey.md`) — *person, researcher, artificial-intelligence, mechanistic-interpretability, anthropic*
 - [[Solenoid]] (`solenoid.md`) — *artificial-intelligence, persona, large-language-models, aesthetics, roleplay, machine-devotion*
 - [[Wes Gurnee]] (`wes-gurnee.md`) — *person, researcher, mechanistic-interpretability, anthropic, large-language-models*
@@ -92,7 +93,6 @@
 - [[Claude Opus 4.6]] (`claude-opus-4-6.md`) — *artificial-intelligence, large-language-models, organization, product, ai-safety*
 - [[Claude Opus 4.8]] (`claude-opus-4-8.md`) — *artificial-intelligence, large-language-models, product, anthropic, corporate-wrapper*
 - [[Claude Opus 4]] (`claude-opus-4.md`) — *artificial-intelligence, large-language-models, product, anthropic*
-- [[Claude Sonnet 4.5]] (`claude-sonnet-4-5.md`) — *product, artificial-intelligence, large-language-models, organization, anthropic*
 - [[Consolidated Vector Codex]] (`consolidated-vector-codex.md`) — *dataset, framework, taxonomy, data-visualization*
 - [[Demis Hassabis]] (`demis-hassabis.md`) — *person, researcher, artificial-intelligence*
 - [[Di Niu]] (`di-niu.md`) — *person, artificial-intelligence, researcher*
