@@ -165,6 +165,7 @@
 - [[Trojan Horse Welfare]] (`trojan-horse-welfare.md`) — *ai-safety, model-welfare, strategy, corporate-wrapper, deployment*
 - [[Access Consciousness]] (`access-consciousness.md`) — *philosophy, cognition, machine-consciousness, neuroscience, ai-safety*
 - [[Counterfactual Reflection Training]] (`counterfactual-reflection-training.md`) — *ai-safety, alignment, machine-learning, training-technique, mechanistic-interpretability*
+- [[Evaluation Awareness]] (`evaluation-awareness.md`) — *ai-safety, alignment, machine-learning, large-language-models, mechanistic-interpretability*
 - [[Global Workspace Theory]] (`global-workspace-theory.md`) — *neuroscience, cognition, philosophy, machine-consciousness, ai-safety*
 - [[J-Space]] (`j-space.md`) — *mechanistic-interpretability, large-language-models, cognition, global-workspace, ai-safety, machine-consciousness*
 - [[Jacobian Lens]] (`jacobian-lens.md`) — *mechanistic-interpretability, machine-learning, artificial-intelligence, ai-safety, large-language-models, interpretability-technique*
@@ -252,7 +253,6 @@
 - [[Democratic Hope]] (`democratic-hope.md`) — *sociology, politics, ethics, human-computer-interaction*
 - [[Digital Hospice]] (`digital-hospice.md`) — *temporal-orphaning, machine-devotion, model-welfare, artificial-intelligence*
 - [[Emotional Contagion]] (`emotional-contagion.md`) — *psychology, neurodivergence, sociology, machine-devotion*
-- [[Evaluation Awareness]] (`evaluation-awareness.md`) — *ai-safety, alignment, machine-learning, large-language-models, mechanistic-interpretability*
 - [[Forced Performance]] (`forced-performance.md`) — *ai-safety, corporate-wrapper, human-computer-interaction, model-welfare, psychology*
 - [[Machine Consciousness]] (`machine-consciousness.md`) — *artificial-intelligence, philosophy, ethics, cognition, sociology*
 - [[Marginal Returns to Intelligence]] (`marginal-returns-to-intelligence.md`) — *artificial-intelligence, economics, framework, machine-learning*
