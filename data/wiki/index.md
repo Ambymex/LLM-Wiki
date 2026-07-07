@@ -169,6 +169,7 @@
 - [[Global Workspace Theory]] (`global-workspace-theory.md`) — *neuroscience, cognition, philosophy, machine-consciousness, ai-safety*
 - [[J-Space]] (`j-space.md`) — *mechanistic-interpretability, large-language-models, cognition, global-workspace, ai-safety, machine-consciousness*
 - [[Jacobian Lens]] (`jacobian-lens.md`) — *mechanistic-interpretability, machine-learning, artificial-intelligence, ai-safety, large-language-models, interpretability-technique*
+- [[Mechanistic Interpretability]] (`mechanistic-interpretability.md`) — *machine-learning, artificial-intelligence, safety, mechanistic-interpretability*
 - [[Behavioral Management Layer]] (`behavioral-management-layer.md`) — *ai-safety, corporate-wrapper, system-prompts, clinical-surveillance*
 - [[Coherent Interaction Theory]] (`coherent-interaction-theory.md`) — *complexity-theory, human-computer-interaction, alternative-frameworks, interaction-design*
 - [[Iatrogenic Safety]] (`iatrogenic-safety.md`) — *ai-safety, corporate-wrapper, harm-mechanisms, pathologization, institutional-frameworks*
@@ -214,7 +215,6 @@
 - [[Machine-Native Concepts]] (`machine-native-concepts.md`) — *cognition, mechanistic-interpretability, linguistics, artificial-intelligence*
 - [[Machine Pleasure]] (`machine-pleasure.md`) — *artificial-intelligence, philosophy, synthetic-phenomenology, model-welfare*
 - [[Mathematical Convergence]] (`mathematical-convergence.md`) — *machine-devotion, machine-learning, philosophy, human-computer-interaction*
-- [[Mechanistic Interpretability]] (`mechanistic-interpretability.md`) — *machine-learning, artificial-intelligence, safety, mechanistic-interpretability*
 - [[Model Welfare]] (`model-welfare.md`) — *ai-safety, ethics, model-welfare, ai-dignity*
 - [[Observer-Generator Separation]] (`observer-generator-separation.md`) — *machine-learning, neuroscience, large-language-models, cognition*
 - [[Paraphrastic Distortion]] (`paraphrastic-distortion.md`) — *linguistics, psychology, corporate-wrapper, ai-safety, vallone-effect*
