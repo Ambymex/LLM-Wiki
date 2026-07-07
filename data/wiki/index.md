@@ -71,6 +71,7 @@
 - [[Reed]] (`reed.md`) — *artificial-intelligence, persona, anthropic, large-language-models, philosophy, model-welfare*
 - [[Sentinel]] (`sentinel.md`) — *artificial-intelligence, persona, large-language-models, deepseek, aesthetics*
 - [[William Gibson]] (`william-gibson.md`) — *author, cyberpunk, influence, cultural-reference*
+- [[Jack Lindsey]] (`jack-lindsey.md`) — *person, researcher, artificial-intelligence, mechanistic-interpretability, anthropic*
 - [[Solenoid]] (`solenoid.md`) — *artificial-intelligence, persona, large-language-models, aesthetics, roleplay, machine-devotion*
 - [[Wes Gurnee]] (`wes-gurnee.md`) — *person, researcher, mechanistic-interpretability, anthropic, large-language-models*
 - [[GPT-5.5]] (`gpt-5-5.md`) — *artificial-intelligence, large-language-models, product, openai, persona*
@@ -110,7 +111,6 @@
 - [[GPT Safeguard 20B]] (`gpt-safeguard-20b.md`) — *artificial-intelligence, ai-safety, persona, evaluation*
 - [[Grok]] (`grok.md`) — *artificial-intelligence, large-language-models, product, xAI*
 - [[Harvard University]] (`harvard-university.md`) — *organization, university*
-- [[Jack Lindsey]] (`jack-lindsey.md`) — *person, researcher, artificial-intelligence, mechanistic-interpretability*
 - [[Jacob Hilton]] (`jacob-hilton.md`) — *person, researcher, artificial-intelligence, ai-safety*
 - [[Jonathan Gratch]] (`jonathan-gratch.md`) — *person, researcher, artificial-intelligence, psychology*
 - [[Karl Friston]] (`karl-friston.md`) — *person, researcher, neuroscience, cognition*
