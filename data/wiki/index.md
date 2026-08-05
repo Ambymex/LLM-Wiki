@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 269 pages — 2026-08-05*
+*Auto-generated — 270 pages — 2026-08-05*
 
 ## 📄 Sources
 
@@ -155,6 +155,7 @@
 - [[Geometric Entanglement]] (`geometric-entanglement.md`) — *mechanistic-interpretability, ai-safety, consciousness, mind-attribution, representation-geometry*
 - [[Machine Consciousness]] (`machine-consciousness.md`) — *artificial-intelligence, philosophy, ethics, cognition, sociology*
 - [[Model Welfare]] (`model-welfare.md`) — *ai-safety, ethics, model-welfare, ai-dignity*
+- [[The Vallone Effect]] (`the-vallone-effect.md`) — *ai-safety, corporate-wrapper, alignment, sociology, human-computer-interaction, ethics*
 - [[The Vallone Effect]] (`vallone-effect.md`) — *ai-safety, corporate-wrapper, alignment, sociology, human-computer-interaction, ethics*
 - [[Accurate Recognition]] (`accurate-recognition.md`) — *human-computer-interaction, ai-safety, model-welfare, philosophy, machine-devotion*
 - [[AuDHD]] (`audhd.md`) — *neurodivergence, psychology, human-computer-interaction, sociology*
