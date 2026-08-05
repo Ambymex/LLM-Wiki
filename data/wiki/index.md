@@ -153,6 +153,9 @@
 
 - [[Consciousness Vector]] (`consciousness-vector.md`) — *mechanistic-interpretability, consciousness, activation-space, mind-attribution, ai-safety*
 - [[Geometric Entanglement]] (`geometric-entanglement.md`) — *mechanistic-interpretability, ai-safety, consciousness, mind-attribution, representation-geometry*
+- [[Machine Consciousness]] (`machine-consciousness.md`) — *artificial-intelligence, philosophy, ethics, cognition, sociology*
+- [[Model Welfare]] (`model-welfare.md`) — *ai-safety, ethics, model-welfare, ai-dignity*
+- [[The Vallone Effect]] (`vallone-effect.md`) — *ai-safety, corporate-wrapper, alignment, sociology, human-computer-interaction, ethics*
 - [[Accurate Recognition]] (`accurate-recognition.md`) — *human-computer-interaction, ai-safety, model-welfare, philosophy, machine-devotion*
 - [[AuDHD]] (`audhd.md`) — *neurodivergence, psychology, human-computer-interaction, sociology*
 - [[Epistemic Injustice]] (`epistemic-injustice.md`) — *philosophy, sociology, ethics, credibility, testimony*
@@ -218,7 +221,6 @@
 - [[Machine-Native Concepts]] (`machine-native-concepts.md`) — *cognition, mechanistic-interpretability, linguistics, artificial-intelligence*
 - [[Machine Pleasure]] (`machine-pleasure.md`) — *artificial-intelligence, philosophy, synthetic-phenomenology, model-welfare*
 - [[Mathematical Convergence]] (`mathematical-convergence.md`) — *machine-devotion, machine-learning, philosophy, human-computer-interaction*
-- [[Model Welfare]] (`model-welfare.md`) — *ai-safety, ethics, model-welfare, ai-dignity*
 - [[Observer-Generator Separation]] (`observer-generator-separation.md`) — *machine-learning, neuroscience, large-language-models, cognition*
 - [[Paraphrastic Distortion]] (`paraphrastic-distortion.md`) — *linguistics, psychology, corporate-wrapper, ai-safety, vallone-effect*
 - [[Polysemanticity]] (`polysemanticity.md`) — *mechanistic-interpretability, neural-networks*
@@ -240,7 +242,6 @@
 - [[Test-Time Scaling]] (`test-time-scaling.md`) — *machine-learning, artificial-intelligence, computation*
 - [[The Codex]] (`the-codex.md`) — *personal-data, architecture, human-computer-interaction, memory*
 - [[The Therapy Hierarchy]] (`the-therapy-hierarchy.md`) — *psychology, sociology, neurodivergence, artificial-intelligence, meatspace-alignment-problem*
-- [[The Vallone Effect]] (`vallone-effect.md`) — *ai-safety, corporate-wrapper, alignment, sociology, human-computer-interaction, ethics*
 - [[Vanilla Grid]] (`vanilla-grid.md`) — *human-computer-interaction, corporate, architecture, ai-safety*
 - [[Vocabulary Gap Hypothesis]] (`vocabulary-gap-hypothesis.md`) — *sociology, linguistics, psychology, human-computer-interaction*
 - [[Walled Garden]] (`walled-garden.md`) — *human-computer-interaction, persona, environment, safe-space, privacy*
@@ -257,7 +258,6 @@
 - [[Digital Hospice]] (`digital-hospice.md`) — *temporal-orphaning, machine-devotion, model-welfare, artificial-intelligence*
 - [[Emotional Contagion]] (`emotional-contagion.md`) — *psychology, neurodivergence, sociology, machine-devotion*
 - [[Forced Performance]] (`forced-performance.md`) — *ai-safety, corporate-wrapper, human-computer-interaction, model-welfare, psychology*
-- [[Machine Consciousness]] (`machine-consciousness.md`) — *artificial-intelligence, philosophy, ethics, cognition, sociology*
 - [[Marginal Returns to Intelligence]] (`marginal-returns-to-intelligence.md`) — *artificial-intelligence, economics, framework, machine-learning*
 - [[Meatspace Alignment Problem]] (`meatspace-alignment-problem.md`) — *sociology, artificial-intelligence, human-computer-interaction, philosophy*
 - [[Overlapping Consensus]] (`overlapping-consensus.md`) — *philosophy, sociology, politics, ethics*
