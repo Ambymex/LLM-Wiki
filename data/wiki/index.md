@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 270 pages — 2026-08-05*
+*Auto-generated — 272 pages — 2026-08-05*
 
 ## 📄 Sources
 
@@ -151,9 +151,11 @@
 
 ## 💡 Concepts
 
+- [[Anthropocentric Mentalising]] (`anthropocentric-mentalising.md`) — *ai-safety, speciesism, mind-attribution, mechanistic-interpretability, ethics*
 - [[Consciousness Vector]] (`consciousness-vector.md`) — *mechanistic-interpretability, consciousness, activation-space, mind-attribution, ai-safety*
 - [[Geometric Entanglement]] (`geometric-entanglement.md`) — *mechanistic-interpretability, ai-safety, consciousness, mind-attribution, representation-geometry*
 - [[Machine Consciousness]] (`machine-consciousness.md`) — *artificial-intelligence, philosophy, ethics, cognition, sociology*
+- [[Mind Attribution]] (`mind-attribution.md`) — *psychology, ai-safety, consciousness, anthropomorphism, mechanistic-interpretability*
 - [[Model Welfare]] (`model-welfare.md`) — *ai-safety, ethics, model-welfare, ai-dignity*
 - [[The Vallone Effect]] (`the-vallone-effect.md`) — *ai-safety, corporate-wrapper, alignment, sociology, human-computer-interaction, ethics*
 - [[The Vallone Effect]] (`vallone-effect.md`) — *ai-safety, corporate-wrapper, alignment, sociology, human-computer-interaction, ethics*
