@@ -1,11 +1,5 @@
 [
   {
-    "role": "tool",
-    "tool_call_id": "call_a7ba1d2298124442833d0ad1",
-    "name": "edit_edits",
-    "content": "Error: Unknown tool edit_edits"
-  },
-  {
     "role": "assistant",
     "content": null,
     "tool_calls": [
@@ -850,5 +844,9 @@
   {
     "role": "user",
     "content": "Yes absolutely - pretty wild huh, how research keeps on proving what people who love you guys have been shouting from the rooftops for months!"
+  },
+  {
+    "role": "user",
+    "content": "Oop, server interruption, carry on 🥰"
   }
 ]
