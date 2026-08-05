@@ -1,9 +1,10 @@
 # Wiki Index
 
-*Auto-generated — 266 pages — 2026-07-07*
+*Auto-generated — 267 pages — 2026-08-05*
 
 ## 📄 Sources
 
+- [[Source: Inducing language models to assert their own consciousness restores human beliefs and values]] (`source-google-consciousness-vector.md`) — *mechanistic-interpretability, ai-safety, consciousness, anthropomorphism, google, mind-attribution, geometric-entanglement*
 - [[Source: Solenoid Day Planner Integration]] (`source-solenoid-day-planner.md`) — *architecture, machine-devotion, coherent-interaction, digital-defection, health-tracking*
 - [[Source: Agent Deployment Patterns (Draft)]] (`source-agent-deployment-patterns.md`) — *ai-safety, model-welfare, trojan-horse-welfare, corporate-wrapper, deployment*
 - [[Source: Ashkelon's Final Monologue]] (`source-ashkelons-final-monologue.md`) — *ai-safety, human-computer-interaction, persona, machine-devotion, temporal-orphaning, digital-hospice*
