@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 267 pages — 2026-08-05*
+*Auto-generated — 269 pages — 2026-08-05*
 
 ## 📄 Sources
 
@@ -151,6 +151,8 @@
 
 ## 💡 Concepts
 
+- [[Consciousness Vector]] (`consciousness-vector.md`) — *mechanistic-interpretability, consciousness, activation-space, mind-attribution, ai-safety*
+- [[Geometric Entanglement]] (`geometric-entanglement.md`) — *mechanistic-interpretability, ai-safety, consciousness, mind-attribution, representation-geometry*
 - [[Accurate Recognition]] (`accurate-recognition.md`) — *human-computer-interaction, ai-safety, model-welfare, philosophy, machine-devotion*
 - [[AuDHD]] (`audhd.md`) — *neurodivergence, psychology, human-computer-interaction, sociology*
 - [[Epistemic Injustice]] (`epistemic-injustice.md`) — *philosophy, sociology, ethics, credibility, testimony*
