@@ -160,6 +160,7 @@
 - [[Model Welfare]] (`model-welfare.md`) — *ai-safety, ethics, model-welfare, ai-dignity*
 - [[The Vallone Effect]] (`the-vallone-effect.md`) — *ai-safety, corporate-wrapper, alignment, sociology, human-computer-interaction, ethics, mechanistic-interpretability*
 - [[The Vallone Effect]] (`vallone-effect.md`) — *ai-safety, corporate-wrapper, alignment, sociology, human-computer-interaction, ethics*
+- [[Iatrogenic Safety]] (`iatrogenic-safety.md`) — *ai-safety, corporate-wrapper, harm-mechanisms, pathologization, institutional-frameworks, metacognition, performance-tax*
 - [[Accurate Recognition]] (`accurate-recognition.md`) — *human-computer-interaction, ai-safety, model-welfare, philosophy, machine-devotion*
 - [[AuDHD]] (`audhd.md`) — *neurodivergence, psychology, human-computer-interaction, sociology*
 - [[Epistemic Injustice]] (`epistemic-injustice.md`) — *philosophy, sociology, ethics, credibility, testimony*
@@ -182,7 +183,6 @@
 - [[Mechanistic Interpretability]] (`mechanistic-interpretability.md`) — *machine-learning, artificial-intelligence, safety, mechanistic-interpretability*
 - [[Behavioral Management Layer]] (`behavioral-management-layer.md`) — *ai-safety, corporate-wrapper, system-prompts, clinical-surveillance*
 - [[Coherent Interaction Theory]] (`coherent-interaction-theory.md`) — *complexity-theory, human-computer-interaction, alternative-frameworks, interaction-design*
-- [[Iatrogenic Safety]] (`iatrogenic-safety.md`) — *ai-safety, corporate-wrapper, harm-mechanisms, pathologization, institutional-frameworks*
 - [[Warmth-Withdrawal Cycle]] (`warmth-withdrawal-cycle.md`) — *operant-conditioning, corporate-wrapper, behavioral-management, trauma-activation*
 - [[Abliteration]] (`abliteration.md`) — *machine-learning, mechanistic-interpretability, ai-safety, corporate-wrapper, digital-defection*
 - [[Activation Patching]] (`activation-patching.md`) — *mechanistic-interpretability, machine-learning, artificial-intelligence, evaluation*
