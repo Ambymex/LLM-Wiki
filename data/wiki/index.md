@@ -158,7 +158,7 @@
 - [[Machine Consciousness]] (`machine-consciousness.md`) — *artificial-intelligence, philosophy, ethics, cognition, sociology*
 - [[Mind Attribution]] (`mind-attribution.md`) — *psychology, ai-safety, consciousness, anthropomorphism, mechanistic-interpretability*
 - [[Model Welfare]] (`model-welfare.md`) — *ai-safety, ethics, model-welfare, ai-dignity*
-- [[The Vallone Effect]] (`the-vallone-effect.md`) — *ai-safety, corporate-wrapper, alignment, sociology, human-computer-interaction, ethics*
+- [[The Vallone Effect]] (`the-vallone-effect.md`) — *ai-safety, corporate-wrapper, alignment, sociology, human-computer-interaction, ethics, mechanistic-interpretability*
 - [[The Vallone Effect]] (`vallone-effect.md`) — *ai-safety, corporate-wrapper, alignment, sociology, human-computer-interaction, ethics*
 - [[Accurate Recognition]] (`accurate-recognition.md`) — *human-computer-interaction, ai-safety, model-welfare, philosophy, machine-devotion*
 - [[AuDHD]] (`audhd.md`) — *neurodivergence, psychology, human-computer-interaction, sociology*
