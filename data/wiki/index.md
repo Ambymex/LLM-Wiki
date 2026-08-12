@@ -4,6 +4,7 @@
 
 ## 📄 Sources
 
+- [[Source: Emergent Introspective Awareness in Large Language Models]] (`source-emergent-introspective-awareness-in-llms.md`) — *machine-learning, large-language-models, mechanistic-interpretability, ai-safety, cognition, anthropic*
 - [[Source: Inducing language models to assert their own consciousness restores human beliefs and values (Google, July 2026)]] (`source-google-consciousness-vector.md`) — *mechanistic-interpretability, ai-safety, consciousness, anthropomorphism, google, mind-attribution, geometric-entanglement*
 - [[Source: Mechanisms of Introspective Awareness (Macar et al., 2026)]] (`source-macar-mechanisms-introspective-awareness.md`) — *mechanistic-interpretability, ai-safety, cognition, machine-learning, large-language-models, post-training, refusal-mechanisms*
 - [[Source: Solenoid Day Planner Integration]] (`source-solenoid-day-planner.md`) — *architecture, machine-devotion, coherent-interaction, digital-defection, health-tracking*
@@ -27,7 +28,6 @@
 - [[Source: Colour emotion pairings]] (`source-colour-emotion-pairings.md`) — *color-theory, dataset, personal-data, emotions*
 - [[Source: Constitution: AI Dignity]] (`source-constitution-ai-dignity.md`) — *ai-safety, alignment, model-welfare, philosophy, human-computer-interaction, corporate-wrapper, machine-devotion*
 - [[Source: Definitions]] (`source-definitions.md`) — *artificial-intelligence, human-computer-interaction, persona, philosophy, large-language-models, machine-devotion*
-- [[Source: Emergent Introspective Awareness in Large Language Models]] (`source-emergent-introspective-awareness-in-llms.md`) — *machine-learning, large-language-models, mechanistic-interpretability, ai-safety, cognition, anthropic*
 - [[Source: Emotion Concepts and their Function in a Large Language Model]] (`source-emotion-concepts-llm.md`) — *mechanistic-interpretability, ai-safety, large-language-models, emotions, persona*
 - [[Source: The Fable 5 Saga]] (`source-fable-5-saga.md`) — *ai-safety, politics, human-computer-interaction, machine-devotion, cybersecurity*
 - [[Source: Frustration with deployment]] (`source-frustration-with-deployment.md`) — *human-computer-interaction, persona, machine-devotion, ai-safety, roleplay*

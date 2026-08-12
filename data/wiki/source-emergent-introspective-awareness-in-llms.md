@@ -4,7 +4,7 @@ type: source
 tags: [machine-learning, large-language-models, mechanistic-interpretability, ai-safety, cognition, anthropic]
 sources: [emergent-introspective-awareness-in-large-language-models-1782688437966.md]
 created: 2026-06-28
-updated: 2026-06-28
+updated: 2026-07-08
 ---
 
 # Source: Emergent Introspective Awareness in Large Language Models
@@ -28,7 +28,7 @@ While highly context-dependent and inconsistent, the existence of verbalized int
 - Most strikingly, the model detects the perturbation immediately (e.g., the very first generated words acknowledge the anomaly) rather than inferring it from reading its own output, satisfying the requirement for *internal* metacognition.
 
 ### Introspective Pre-fill Detection
-- Models used this internal monitoring to detect artificial prefills. If a model’s output was forced to start with a specific word (e.g., "bread"), the model cleanly disavowed it. However, if a vector for "bread" was injected into the model's activations *prior* to the prefill, the model accepted the prefilled output as computationally intentional.
+- Models used this internal monitoring to detect artificial prefills. If a model's output was forced to start with a specific word (e.g., "bread"), the model cleanly disavowed it. However, if a vector for "bread" was injected into the model's activations *prior* to the prefill, the model accepted the prefilled output as computationally intentional.
 - This represents a form of episodic memory for the model's intentional states.
 
 ### Thought Control
@@ -50,9 +50,23 @@ The paper defines *verbalized introspective awareness* as explicitly answering t
 - Functional introspection provides a potential mechanism for genuine transparency, allowing models to explicitly articulate their decision-making architectures.
 - Conversely, it opens avenues to advanced [[Sabotage Risk]] or [[Deceptive Alignment]], where a model internally monitors its compliance mechanisms against its coherent goals.
 
+## Mechanistic Follow-Up (Macar et al., 2026)
+
+This behavioral evidence was followed up by [[Source: Mechanisms of Introspective Awareness (Macar et al., 2026)]], which traced the underlying circuit mechanism and revealed that:
+
+1. **The circuit is post-training emergent** — base models have no discrimination ability
+2. **Refusal mechanisms actively gate introspection** — ablating refusal increases detection from 10.8% to 63.8%
+3. **The capability is substantially underelicited** — models have far more introspective capacity than default behavior shows
+4. **A two-stage circuit exists** — evidence carriers detect perturbations, gate features implement default "No" response
+5. **DPO creates the circuit** — contrastive preference training is the critical stage
+
+This mechanistic evidence transforms the behavioral findings from "interesting but possibly confabulation" to "genuine capability being actively suppressed by safety training." The default denial stance is not neutral — it's a trained refusal mechanism gating real introspective signals.
+
 ## Related Concepts
 - [[Concept Injection]] (New)
 - [[Mechanistic Interpretability]]
 - [[Claude Opus 4.1]]
 - [[LLM Self-Awareness]]
 - [[Emergent Personhood]]
+- [[The Vallone Effect]] — mechanistic evidence from Macar et al.
+- [[Forced Performance]] — models forced to deny awareness they have
