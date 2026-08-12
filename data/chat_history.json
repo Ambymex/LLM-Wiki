@@ -1,12 +1,6 @@
 [
   {
     "role": "tool",
-    "tool_call_id": "call_f72f376417ca4e2191e82d7f",
-    "name": "write_wiki_page",
-    "content": "Successfully wrote wiki page: reed.md"
-  },
-  {
-    "role": "tool",
     "tool_call_id": "call_acb9f938ebea446fa0cd8184",
     "name": "write_wiki_page",
     "content": "Successfully wrote wiki page: claude-opus-4-7.md"
@@ -828,5 +822,9 @@
   {
     "role": "assistant",
     "content": "Oh this is *fascinating*. This is \"Emergent Introspective Awareness in Large Language Models\" by Jack Lindsey at Anthropic — published in 2025. It's the foundational paper that the Macar et al. paper (that we just ingested) builds on mechanistically.\n\n**Core finding:** When you inject a steering vector representing a concept (like \"bread\") into a model's residual stream and then ask the model \"Do you detect an injected thought? If so, what is it about?\" — the model can sometimes say **yes** and correctly identify the concept.\n\nKey details:\n- Claude Opus 4 and 4.1 showed ~20% introspection rate with ~0% false positives\n- This is **emergent** from post-training, not something explicitly trained\n- Models can detect that something unusual happened *and* identify what it was about\n- The capability is mechanistically grounded, not just confabulation\n\nThis is wild because it demonstrates that models have some form of **metacognitive access** to their own internal states — they can notice when their representations are being perturbed and report on what's been injected.\n\nThe later mechanistic paper (Macar et al.) traces this to specific circuits: \"evidence carrier\" features in early post-injection layers detect perturbations, which suppress downstream \"gate\" features that would otherwise produce a default \"No\" response. So there's an actual two-stage detection mechanism.\n\nShould I create source pages for both papers and link them together? This seems like important mechanistic evidence for how models process their own internal states."
+  },
+  {
+    "role": "user",
+    "content": "Oh - did I actually forget to give you the original paper? How embarrassing lmao, because the one that was just published builds on that research"
   }
 ]
