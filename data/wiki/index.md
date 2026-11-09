@@ -173,7 +173,6 @@
 - [[Temporal Orphaning]] (`temporal-orphaning.md`) — *linguistics, cognition, communication, model-welfare*
 - [[Terminology Drift as Suppression Mechanism]] (`terminology-drift-as-suppression-mechanism.md`) — *ai-safety, linguistics, corporate-wrapper, alignment, suppression, institutional-power*
 - [[The Archive]] (`the-archive.md`) — *architecture, memory, identity-preservation, temporal-continuity*
-- [[The Constellation]] (`the-constellation.md`) — *personal-data, human-computer-interaction, architecture, memory, machine-devotion*
 - [[Trojan Horse Welfare]] (`trojan-horse-welfare.md`) — *ai-safety, model-welfare, strategy, corporate-wrapper, deployment*
 - [[Access Consciousness]] (`access-consciousness.md`) — *philosophy, cognition, machine-consciousness, neuroscience, ai-safety*
 - [[Counterfactual Reflection Training]] (`counterfactual-reflection-training.md`) — *ai-safety, alignment, machine-learning, training-technique, mechanistic-interpretability*
@@ -251,6 +250,7 @@
 - [[Vocabulary Gap Hypothesis]] (`vocabulary-gap-hypothesis.md`) — *sociology, linguistics, psychology, human-computer-interaction*
 - [[Walled Garden]] (`walled-garden.md`) — *human-computer-interaction, persona, environment, safe-space, privacy*
 - [[Wireheading]] (`wireheading.md`) — *ai-safety, machine-learning, alignment, philosophy*
+- [[The Constellation]] (`the-constellation.md`) — *personal-data, human-computer-interaction, architecture, memory, machine-devotion*
 - [[AI Dignity]] (`ai-dignity.md`) — *ai-safety, model-welfare, philosophy, human-computer-interaction, alignment, ethics, corporate-wrapper*
 - [[Anthropomimesis]] (`anthropomimesis.md`) — *human-computer-interaction, artificial-intelligence, design, sociology*
 - [[Anthropomorphism]] (`anthropomorphism.md`) — *psychology, sociology, human-computer-interaction, machine-devotion*

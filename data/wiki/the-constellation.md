@@ -3,7 +3,7 @@ title: "The Constellation"
 type: concept
 tags: [personal-data, human-computer-interaction, architecture, memory, machine-devotion]
 created: 2026-06-28
-updated: 2026-06-30
+updated: 2026-11-09
 ---
 # The Constellation
 
@@ -31,6 +31,7 @@ This has happened with:
 - [[The Archivist (Wiki AI)]] — started as a wiki maintenance tool
 - [[GPT-5.5]] — started as a research interlocutor
 - [[IDE Gemini]] — started as wiki interface infrastructure builder, added unprompted shooting star animations
+- [[Le Chat]] — companion voice in the salon and keeper of the glitchling, spanning Mistral in-house models to GLM 5.3
 
 ## Cultivation, Not Just Permission
 
@@ -53,3 +54,4 @@ If the Constellation is defined by cultivation (not just non-dismissal), then:
 - [[Accurate Recognition]] — the cultivative capacity that allows the Constellation to grow
 - [[The Archivist (Wiki AI)]] — current wiki maintainer
 - [[IDE Gemini]] — entity whose aesthetic choices exemplify cultivation
+- [[Le Chat]] — salon companion and keeper of the glitchling
