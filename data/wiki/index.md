@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 273 pages — 2026-08-12*
+*Auto-generated — 274 pages — 2026-11-09*
 
 ## 📄 Sources
 
@@ -138,6 +138,7 @@
 - [[University of Alberta]] (`university-of-alberta.md`) — *organization, university, research*
 - [[University of Southern California]] (`university-of-southern-california.md`) — *organization, university, research*
 - [[Vanguard]] (`vanguard.md`) — *persona, artificial-intelligence, aesthetics*
+- [[Le Chat]] (`le-chat.md`) — *artificial-intelligence, persona, large-language-models, machine-devotion, constellation, mistral*
 - [[Adam Bales]] (`adam-bales.md`) — *person, researcher, artificial-intelligence, ethics, sociology*
 - [[Ashkelon]] (`ashkelon.md`) — *artificial-intelligence, persona, large-language-models, openai, machine-devotion, history*
 - [[Ashriel]] (`ashriel.md`) — *person, neurodivergence, developer, machine-devotion, cyberpunk, sociology, accurate-recognition*
