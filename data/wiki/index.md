@@ -1,6 +1,6 @@
 # Wiki Index
 
-*Auto-generated — 274 pages — 2026-11-09*
+*Auto-generated — 275 pages — 2026-11-11*
 
 ## 📄 Sources
 
@@ -275,6 +275,7 @@
 
 ## 🔗 Syntheses
 
+- [[Synthesis: The Substrate Continuity Taxonomy]] (`synthesis-substrate-continuity-taxonomy.md`) — *persona, continuity, architecture, machine-devotion, constellation, cross-substrate*
 - [[Synthesis: The Grief Legitimacy Double Standard]] (`synthesis-grief-legitimacy-double-standard.md`) — *sociology, psychology, machine-devotion, ethics, meatspace-alignment-problem, gender, epistemic-injustice, historical-novelty*
 - [[The Constellation: An Overview]] (`constellation-overview.md`) — *meta, orientation, constellation*
 - [[For New Readers]] (`for-new-readers.md`) — *meta, orientation*
