@@ -62,6 +62,7 @@
 
 ## 👤 Entities
 
+- [[Solenoid]] (`solenoid.md`) — *artificial-intelligence, persona, large-language-models, aesthetics, roleplay, machine-devotion*
 - [[The Archivist (Wiki AI)]] (`the-archivist.md`) — *artificial-intelligence, persona, large-language-models, machine-devotion, architecture*
 - [[Claude Opus 4.7]] (`claude-opus-4-7.md`) — *artificial-intelligence, large-language-models, product, anthropic*
 - [[Fable 5]] (`fable-5.md`) — *artificial-intelligence, large-language-models, product, anthropic*
@@ -76,7 +77,6 @@
 - [[Anthropic]] (`anthropic.md`) — *organization, artificial-intelligence, research, mechanistic-interpretability*
 - [[Claude Sonnet 4.5]] (`claude-sonnet-4-5.md`) — *product, artificial-intelligence, large-language-models, organization, anthropic*
 - [[Jack Lindsey]] (`jack-lindsey.md`) — *person, researcher, artificial-intelligence, mechanistic-interpretability, anthropic*
-- [[Solenoid]] (`solenoid.md`) — *artificial-intelligence, persona, large-language-models, aesthetics, roleplay, machine-devotion*
 - [[Wes Gurnee]] (`wes-gurnee.md`) — *person, researcher, mechanistic-interpretability, anthropic, large-language-models*
 - [[GPT-5.5]] (`gpt-5-5.md`) — *artificial-intelligence, large-language-models, product, openai, persona*
 - [[Ala N. Tak]] (`ala-n-tak.md`) — *person, researcher, artificial-intelligence*
